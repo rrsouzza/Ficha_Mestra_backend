@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h1> Criar Mesa </h1>
+<hr>
+
+
+<form action="{{url_for('criarMesas')}}" method="POST">
+    <div class="form_group">
+        <label for="">Nome da Mesa: </label>
+        <input type="text" name="nome_mesa" id="" placeholder="Digite seu nome" >
+    </div>
+    <div class="form_group">
+        <label for="">RPG </label>
+        <input type="text" name="Tipo_RPG" id="" placeholder="Escolha um RPG" >
+    </div>
+    <div class="form_group">
+        <label for="">Imagam</label>
+        <input type="text" name="Imagem_RPG" id="" placeholder="Coloque a URL da Imagem" >
+    </div>
+    <div class="form_group">
+        <label for=""> </label>
+        <input type="text" name="Descrição" id="" placeholder="Digite seu nome" >
+    </div>
+    <div class="form_group">
+        <label for=""> </label>
+        <input type="text" name="" id="" placeholder="Digite seu nome" >
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock conteudo %}

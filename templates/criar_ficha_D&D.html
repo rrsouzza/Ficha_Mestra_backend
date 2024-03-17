@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Site TCC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <form action="{{url_for('criar_ficha_DeD')}}" method="POST">
+        <br>
+        <hr>
+        <div class="container">
+            <input type="text" name="Nome_do_Jogador" id="" placeholder="Nome_do_Jogador">
+            <input type="text" name="Nome_do_Personagem" id="" placeholder="Nome_do_Personagem">
+            <input type="number" name="Nivel" id="" placeholder="Nível">
+        </div>
+        <div class="container">
+            <select class="form-select" aria-label="Default select example">
+                {% for registro in dados.Classes.keys() %}
+                    <option name="Classe" value="{{registro}}">{{registro}}</option>
+                {% endfor %}
+            </select>
+            <select class="form-select" aria-label="Default select example">
+                {% for registro in dados.Raças.keys() %}
+                    <option name="Racas" value="{{registro}}">{{registro}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="container">
+                <a>Força</a>
+                <br>
+                <input type="number" name="Pericia_total_For" id="">
+            </div>
+            <div class="container">
+                <a>Destreza</a>
+                <br>
+                <input type="number" name="Pericia_total_Des" id="">
+            </div>
+            <div class="container">
+                <a>Constituição</a>
+                <br>
+                <input type="number" name="Pericia_total_Cons" id="">
+            </div>
+            <div class="container">
+                <a>Inteligência</a>
+                <br>
+                <input type="number" name="Pericia_total_Int" id="">
+            </div>
+            <div class="container">
+                <a>Sabedoria</a>
+                <br>
+                <input type="number" name="Pericia_total_Sab" id="">
+            </div>
+            <div class="container">
+                <a>Carisma</a>
+                <br>
+                <input type="number" name="Pericia_total_Car" id="">
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="container">
+                <input type="checkbox" name="Acrobacia_checkbox" id="">
+                <input type="number" name="Acrobacia_value" id="">
+                <a>Acrobacia (Des)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Arcanismo_checkbox" id="">
+                <input type="number" name="Arcanismo_value" id="">
+                <a>Arcanismo (Int)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Atletismo_checkbox" id="">
+                <input type="number" name="Atletismo_value" id="">
+                <a>Atletismo (For)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Atuação_checkbox" id="">
+                <input type="number" name="Atuação_value" id="">
+                <a>Atuação (Car)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Enganação_checkbox" id="">
+                <input type="number" name="Enganação_value" id="">
+                <a>Enganação (Car)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Furtividade_checkbox" id="" value=>
+                <input type="number" name="Furtividade_value" id="">
+                <a>Furtividade (Des)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="História_checkbox" id="">
+                <input type="number" name="História_value" id="">
+                <a>História (Int)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Intimidação_checkbox" id="">
+                <input type="number" name="Intimidação_value" id="">
+                <a>Intimidação (Car)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Intuição_checkbox" id="">
+                <input type="number" name="Intuição_value" id="">
+                <a>Intuição (Sab)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Investigação_checkbox" id="">
+                <input type="number" name="Investigação_value" id="">
+                <a>Investigação (Int)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Lidar_com_Animais_checkbox" id="">
+                <input type="number" name="Lidar_com_Animais_value" id="">
+                <a>Lidar com Animais (Sab)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Medicina_checkbox" id="">
+                <input type="number" name="Medicina_value" id="">
+                <a>Medicina (Sab)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Natureza_checkbox" id="">
+                <input type="number" name="Natureza_value" id="">
+                <a>Natureza (Int)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Percepção_checkbox" id="">
+                <input type="number" name="Percepção_Value" id="">
+                <a>Percepção (Sab)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Persuasão_checkbox" id="">
+                <input type="number" name="Persuasão_value" id="">
+                <a>Persuasão (Car)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Prestidigitação_checkbox" id="">
+                <input type="number" name="Prestidigitação_value" id="">
+                <a>Prestidigitação (Des)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Religião_checkbox" id="">
+                <input type="number" name="Religião_value" id="">
+                <a>Religião (Int)</a>
+            </div>
+            <div class="container">
+                <input type="checkbox" name="Sobrevivência_checkbox" id="">
+                <input type="number" name="Sobrevivência_value" id="">
+                <a>Sobrevivência (Sab)</a>
+            </div>
+        </div>
+        
+        <button class="btn btn-success">Confirma</button>
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

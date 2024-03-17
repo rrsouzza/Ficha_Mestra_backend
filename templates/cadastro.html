@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2>Tela de Cadastro</h2>
+<hr>
+<form action="{{url_for('cadastro')}}" method="POST">
+    <div class="form_group">
+        <label for="">Nome: </label>
+        <input type="text" name="nome" id="" placeholder="Digite seu nome" >
+    </div>
+    <div class="form_group">
+        <label for="">Senha: </label>
+        <input type="password" name="senha" id="" placeholder="Digite sua senha" >
+    </div>
+    <div class="form_group">
+        <label for="">E-mail</label>
+        <input type="email" name="email" id="" placeholder="Digite seu E-mail" >
+    </div>
+    <div class="form_group">
+        <label for="">idade: </label>
+        <input type="date" name="aniversario" id="" >
+    </div>
+    <h3>{{logins}}</h3>
+    <button class="btn btn-success">Confirma</button>
+</form>
+{% endblock conteudo %}

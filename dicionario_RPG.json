@@ -1,0 +1,794 @@
+
+[{
+    "Classes": {
+        "Artífice": {
+            "1": {"Bonus de Proficiência":2,"Habilidades":["Consertos mágicos", "feitiços"],  "Infusões conhecidas": 0,"Itens Infundidos": 0,"Truques Conhecidos": 2,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "2": {"Bonus de Proficiência":2,"Habilidades":["Infundir item"], "Infusões conhecidas": 4,"Itens Infundidos": 2,"Truques Conhecidos": 2,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "3": {"Bonus de Proficiência":2,"Habilidades":["Especialista Artífice", "a ferramenta certa para o trabalho"], "Infusões conhecidas": 4,"Itens Infundidos": 2,"Truques Conhecidos": 2,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "4": {"Bonus de Proficiência":2,"Habilidades":["Melhoria na pontuação de habilidade"], "Infusões conhecidas": 4,"Itens Infundidos": 2,"Truques Conhecidos": 2,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "5": {"Bonus de Proficiência":3,"Habilidades":["Recurso Especialista Artífice"], "Infusões conhecidas": 4,"Itens Infundidos": 2,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "6": {"Bonus de Proficiência":3,"Habilidades":["Experiência em ferramentas"], "Infusões conhecidas": 6,"Itens Infundidos": 3,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "7": {"Bonus de Proficiência":3,"Habilidades":["Flash de Gênio"], "Infusões conhecidas": 6,"Itens Infundidos": 3,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "8": {"Bonus de Proficiência":3,"Habilidades":["Melhoria na pontuação de habilidade"], "Infusões conhecidas": 6,"Itens Infundidos": 3,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0},
+            "9": {"Bonus de Proficiência":4,"Habilidades":["Recurso Especialista Artífice"], "Infusões conhecidas": 6,"Itens Infundidos": 3,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0},
+            "10": {"Bonus de Proficiência":4,"Habilidades":["Adepto de itens mágicos"], "Infusões conhecidas": 8,"Itens Infundidos": 4,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0},
+            "11": {"Bonus de Proficiência":4,"Habilidades":["Item de armazenamento de feitiços"], "Infusões conhecidas": 8,"Itens Infundidos": 4,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0},
+            "12": {"Bonus de Proficiência":4,"Habilidades":["Melhoria na pontuação de habilidade"], "Infusões conhecidas": 8,"Itens Infundidos": 4,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0},
+            "13": {"Bonus de Proficiência":5,"Habilidades":"", "Infusões conhecidas": 8,"Itens Infundidos": 4,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0},
+            "14": {"Bonus de Proficiência":5,"Habilidades":["Savant de Itens Mágicos"], "Infusões conhecidas": 10,"Itens Infundidos": 5,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0},
+            "15": {"Bonus de Proficiência":5,"Habilidades":["Recurso Especialista Artífice"], "Infusões conhecidas": 10,"Itens Infundidos": 5,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0},
+            "16": {"Bonus de Proficiência":5,"Habilidades":["Melhoria na pontuação de habilidade"], "Infusões conhecidas": 10,"Itens Infundidos": 5,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0},
+            "17": {"Bonus de Proficiência":6,"Habilidades":"", "Infusões conhecidas": 10,"Itens Infundidos": 5,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1},
+            "18": {"Bonus de Proficiência":6,"Habilidades":["Mestre de Itens Mágicos"], "Infusões conhecidas": 12,"Itens Infundidos": 6,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1},
+            "19": {"Bonus de Proficiência":6,"Habilidades":["Melhoria na pontuação de habilidade"], "Infusões conhecidas": 12,"Itens Infundidos": 6,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2},
+            "20": {"Bonus de Proficiência":6,"Habilidades":["Alma do Artifício"], "Infusões conhecidas": 12,"Itens Infundidos": 6,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2}
+        },	
+        "Bárbaro": {
+            "1": {"Bonus de Proficiência": 2,"Habilidades":["Fúria", "Defesa Sem Armadura"],"Fúria": 2,"Dano de Fúria": 2},
+            "2": {"Bonus de Proficiência": 2,"Habilidades":["Ataque Imprudente", "Sentido de Perigo"],"Fúria": 2,"Dano de Fúria": 2},
+            "3": {"Bonus de Proficiência": 2,"Habilidades":["Caminho Primordial", "Conhecimento Primordial (Opcional)"],"Fúria": 3,"Dano de Fúria": 2},
+            "4": {"Bonus de Proficiência": 2,"Habilidades":["Melhoria na pontuação de habilidade"],"Fúria": 3,"Dano de Fúria": 2},
+            "5": {"Bonus de Proficiência": 3,"Habilidades":["Ataque Extra", "Movimento Rápido"],"Fúria": 3,"Dano de Fúria": 2},
+            "6": {"Bonus de Proficiência": 3,"Habilidades":["Recurso de caminho"],"Fúria": 4,"Dano de Fúria": 2},
+            "7": {"Bonus de Proficiência": 3,"Habilidades":["Feral Instinct", "Instinctive Pounce (Opcional)"],"Fúria": 4,"Dano de Fúria": 2},
+            "8": {"Bonus de Proficiência": 3,"Habilidades":["Melhoria na pontuação de habilidade"],"Fúria": 4,"Dano de Fúria": 2},
+            "9": {"Bonus de Proficiência": 4,"Habilidades":["Crítico Brutal (1 dado)"],"Fúria": 4,"Dano de Fúria": 3},
+            "10": {"Bonus de Proficiência": 4,"Habilidades":["Recurso de caminho", "conhecimento primordial (opcional)"],"Fúria": 4,"Dano de Fúria": 3},
+            "11": {"Bonus de Proficiência": 4,"Habilidades":["Fúria Implacável"],"Fúria": 4,"Dano de Fúria": 3},
+            "12": {"Bonus de Proficiência": 4,"Habilidades":["Melhoria na pontuação de habilidade"],"Fúria": 5,"Dano de Fúria": 3},
+            "13": {"Bonus de Proficiência": 5,"Habilidades":["Crítico Brutal (2 dados)"],"Fúria": 5,"Dano de Fúria": 3},
+            "14": {"Bonus de Proficiência": 5,"Habilidades":["Recurso de caminho"],"Fúria": 5,"Dano de Fúria": 3},
+            "15": {"Bonus de Proficiência": 5,"Habilidades":["Raiva Persistente"],"Fúria": 5,"Dano de Fúria": 3},
+            "16": {"Bonus de Proficiência": 5,"Habilidades":["Melhoria na pontuação de habilidade"],"Fúria": 5,"Dano de Fúria": 4},
+            "17": {"Bonus de Proficiência": 6,"Habilidades":["Crítico Brutal (3 dados)"],"Fúria": 6,"Dano de Fúria": 4},
+            "18": {"Bonus de Proficiência": 6,"Habilidades":["Poder Indomável"],"Fúria": 6,"Dano de Fúria": 4},
+            "19": {"Bonus de Proficiência": 6,"Habilidades":["Melhoria na pontuação de habilidade"],"Fúria": 6,"Dano de Fúria": 4},
+            "20": {"Bonus de Proficiência": 6,"Habilidades":["Campeão Primordial"],"Fúria": "Ilimitado","Dano de Fúria": 4}
+        },
+        "Bardo": {
+            "1":{"Bonus de Proficiência": 2,"Habilidade": ["Conjuração", "Inspiração Bárdica (d6)"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 4,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "2":{"Bonus de Proficiência": 2,"Habilidade": ["Jack of All Trades", "Song of Rest (d6)", "Magical Inspiration (Opcional)"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 5,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "3":{"Bonus de Proficiência": 2,"Habilidade": ["Bard College", "Especialização"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 6,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "4":{"Bonus de Proficiência": 2,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade de Bardo (Opcional)"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 7,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "5":{"Bonus de Proficiência": 3,"Habilidade": ["Inspiração Bárdica (d8)", "Fonte de Inspiração"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 8,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "6":{"Bonus de Proficiência": 3,"Habilidade": ["Countercharm", "recurso do Bard College"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 9,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "7":{"Bonus de Proficiência": 3,"Habilidade": [""],"Truques Conhecidos":3, "Feitiços Conhecidos":10,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "8":{"Bonus de Proficiência": 3,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade de Bardo (Opcional)"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 11,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "9":{"Bonus de Proficiência": 4,"Habilidade": ["Canção de Descanso (d8)"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 12,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "10":{"Bonus de Proficiência": 4,"Habilidade": ["Inspiração Bárdica (d10)", "Especialização", "Segredos Mágicos"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 14,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "11":{"Bonus de Proficiência": 4,"Habilidade": [""],"Truques Conhecidos":4, "Feitiços Conhecidos":15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "12":{"Bonus de Proficiência": 4,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade de Bardo (Opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "13":{"Bonus de Proficiência": 5,"Habilidade": ["Canção de Descanso (d10)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 16,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "14":{"Bonus de Proficiência": 5,"Habilidade": ["Segredos Mágicos", "recurso do Bard College"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 18,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "15":{"Bonus de Proficiência": 5,"Habilidade": ["Inspiração Bárdica (d12)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 19,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "16":{"Bonus de Proficiência": 5,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade de Bardo (Opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 19,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "17":{"Bonus de Proficiência": 6,"Habilidade": ["Canção de Descanso (d12)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 20,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "18":{"Bonus de Proficiência": 6,"Habilidade": ["Segredos Mágicos"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 22,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "19":{"Bonus de Proficiência": 6,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade de Bardo (Opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 22,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "20":{"Bonus de Proficiência": 6,"Habilidade": ["Inspiração superior"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 22,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
+        },
+        "Bruxo": {
+            "1": {"Bonus de Proficiência":2,"Habilidade":["Patrono do Outro Mundo"," Pacto Mágico"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 2,"Slots de feitiço": 1,"Nível do slot": 1,"Invocações conhecidas": 0},
+            "2": {"Bonus de Proficiência":2,"Habilidade":["Invocações Sobrenaturais"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 3,"Slots de feitiço": 2,"Nível do slot": 1,"Invocações conhecidas": 2},
+            "3": {"Bonus de Proficiência":2,"Habilidade":["Benefício do Pacto"],"Truques Conhecidos": 2,"Feitiços Conhecidos": 4,"Slots de feitiço": 2,"Nível do slot": 2,"Invocações conhecidas": 2},
+            "4": {"Bonus de Proficiência":2,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade sobrenatural (opcional)"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 5,"Slots de feitiço": 2,"Nível do slot": 2,"Invocações conhecidas": 2},
+            "5": {"Bonus de Proficiência":3,"Habilidade":[""],"Truques Conhecidos": 3,"Feitiços Conhecidos": 6,"Slots de feitiço": 2,"Nível do slot": 3,"Invocações conhecidas": 3},
+            "6": {"Bonus de Proficiência":3,"Habilidade":["Recurso de Patrono do Outro Mundo"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 7,"Slots de feitiço": 2,"Nível do slot": 3,"Invocações conhecidas": 3},
+            "7": {"Bonus de Proficiência":3,"Habilidade":[""],"Truques Conhecidos": 3,"Feitiços Conhecidos": 8,"Slots de feitiço": 2,"Nível do slot": 4,"Invocações conhecidas": 4},
+            "8": {"Bonus de Proficiência":3,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade sobrenatural (opcional)"],"Truques Conhecidos": 3,"Feitiços Conhecidos": 9,"Slots de feitiço": 2,"Nível do slot": 4,"Invocações conhecidas": 4},
+            "9": {"Bonus de Proficiência":4,"Habilidade":[""],"Truques Conhecidos": 3,"Feitiços Conhecidos": 10,"Slots de feitiço": 2,"Nível do slot": 5,"Invocações conhecidas": 5},
+            "10": {"Bonus de Proficiência":4,"Habilidade":["Recurso de Patrono do Outro Mundo"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 10,"Slots de feitiço": 2,"Nível do slot": 5,"Invocações conhecidas": 5},
+            "11": {"Bonus de Proficiência":4,"Habilidade":["Arcano Místico (6º nível)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 11,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 5},
+            "12": {"Bonus de Proficiência":4,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade sobrenatural (opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 11,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 6},
+            "13": {"Bonus de Proficiência":5,"Habilidade":["Arcano Místico (7º nível)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 12,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 6},
+            "14": {"Bonus de Proficiência":5,"Habilidade":["Recurso de Patrono do Outro Mundo"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 12,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 6},
+            "15": {"Bonus de Proficiência":5,"Habilidade":["Arcano Místico (8º nível)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 13,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 7},
+            "16": {"Bonus de Proficiência":5,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade sobrenatural (opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 13,"Slots de feitiço": 3,"Nível do slot": 5,"Invocações conhecidas": 7},
+            "17": {"Bonus de Proficiência":6,"Habilidade":["Arcano Místico (9º nível)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 14,"Slots de feitiço": 4,"Nível do slot": 5,"Invocações conhecidas": 7},
+            "18": {"Bonus de Proficiência":6,"Habilidade":[""],"Truques Conhecidos": 4,"Feitiços Conhecidos": 14,"Slots de feitiço": 4,"Nível do slot": 5,"Invocações conhecidas": 8},
+            "19": {"Bonus de Proficiência":6,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade sobrenatural (opcional)"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 15,"Slots de feitiço": 4,"Nível do slot": 5,"Invocações conhecidas": 8},
+            "20": {"Bonus de Proficiência":6,"Habilidade":["Mestre Eldritch"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 15,"Slots de feitiço": 4,"Nível do slot": 5,"Invocações conhecidas": 8}
+        },
+        "Clérigo": {
+            "1":{"Bonus de Proficiência":2, "Habilidade":["Feitiços", "Domínio Divino"],"Truques Conhecidos": 3,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "2":{"Bonus de Proficiência":2, "Habilidade":["Canalizar Divindade (x1)", "recurso Domínio Divino", "Aproveitar o Poder Divino (Opcional)"],"Truques Conhecidos": 3,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "3":{"Bonus de Proficiência":2, "Habilidade":[""],"Truques Conhecidos":3,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "4":{"Bonus de Proficiência":2, "Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "5":{"Bonus de Proficiência":3, "Habilidade":["Destruir Mortos-Vivos (CR 1/2)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "6":{"Bonus de Proficiência":3, "Habilidade":["Canalizar Divindade (x2)", "recurso Domínio Divino"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "7":{"Bonus de Proficiência":3, "Habilidade":[""],"Truques Conhecidos":4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "8":{"Bonus de Proficiência":3, "Habilidade":["Melhoria na Pontuação de Habilidade", "Destruir Mortos-Vivos (CR 1)", "recurso Domínio Divino", "Versatilidade de Truques (Opcional)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "9":{"Bonus de Proficiência":4, "Habilidade":[""],"Truques Conhecidos":4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "10":{"Bonus de Proficiência":4, "Habilidade":["Intervenção divina"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "11":{"Bonus de Proficiência":4, "Habilidade":["Destruir Mortos-Vivos (CR 2)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "12":{"Bonus de Proficiência":4, "Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "13":{"Bonus de Proficiência":5, "Habilidade":[""],"Truques Conhecidos":5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "14":{"Bonus de Proficiência":5, "Habilidade":["Destruir Mortos-Vivos (CR 3)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "15":{"Bonus de Proficiência":5, "Habilidade":[""],"Truques Conhecidos":5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "16":{"Bonus de Proficiência":5, "Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "17":{"Bonus de Proficiência":6, "Habilidade":["Destruir Mortos-Vivos (CR 4)", "recurso Domínio Divino"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "18":{"Bonus de Proficiência":6, "Habilidade":["Canalizar Divindade (x3)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "19":{"Bonus de Proficiência":6, "Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "20":{"Bonus de Proficiência":6, "Habilidade":["Melhoria da Intervenção Divina"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
+        },
+        "Druida": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        },
+        "Feiticeiro": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        },
+        "Guardião": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        },
+        "Guerreiro": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        },
+        "Ladino": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        },
+        "Mago": {
+            "1":{"Bonus de Proficiência": 2,"Habilidade":["Conjuração", "Recuperação Arcana"],"Truques Conhecidos": 3,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "2":{"Bonus de Proficiência": 2,"Habilidade":["Tradição Arcana"],"Truques Conhecidos": 3,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "3":{"Bonus de Proficiência": 2,"Habilidade":["Fórmulas Cantrip (opcional)"],"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "4":{"Bonus de Proficiência": 2,"Habilidade":["Melhoria na pontuação de habilidade"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "5":{"Bonus de Proficiência": 3,"Habilidade":[""],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "6":{"Bonus de Proficiência": 3,"Habilidade":["Recurso Tradição Arcana"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "7":{"Bonus de Proficiência": 3,"Habilidade":[""],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "8":{"Bonus de Proficiência": 3,"Habilidade":["Melhoria na pontuação de habilidade"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "9":{"Bonus de Proficiência": 4,"Habilidade":[""],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "10":{"Bonus de Proficiência": 4,"Habilidade":["Recurso Tradição Arcana"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "11":{"Bonus de Proficiência": 4,"Habilidade":[""],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "12":{"Bonus de Proficiência": 4,"Habilidade":["Melhoria na pontuação de habilidade"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "13":{"Bonus de Proficiência": 5,"Habilidade":[""],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "14":{"Bonus de Proficiência": 5,"Habilidade":["Recurso Tradição Arcana"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "15":{"Bonus de Proficiência": 5,"Habilidade":[""],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "16":{"Bonus de Proficiência": 5,"Habilidade":["Melhoria na pontuação de habilidade"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "17":{"Bonus de Proficiência": 6,"Habilidade":[""],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "18":{"Bonus de Proficiência": 6,"Habilidade":["Domínio de Feitiço"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "19":{"Bonus de Proficiência": 6,"Habilidade":["Melhoria na pontuação de habilidade"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "20":{"Bonus de Proficiência": 6,"Habilidade":["Feitiços de Assinatura"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
+        },
+        "Monge": {
+            "1":{},
+            "2":{},
+            "3":{},
+            "4":{},
+            "5":{},
+            "6":{},
+            "7":{},
+            "8":{},
+            "9":{},
+            "10":{},
+            "11":{},
+            "12":{},
+            "13":{},
+            "14":{},
+            "15":{},
+            "16":{},
+            "17":{},
+            "18":{},
+            "19":{},
+            "20":{}
+        }
+    },
+    "Raças":{
+        "Anão": {
+            "aumento do escore de habilidade": {"Constituição": 2},
+            "Idade": "Os anões amadurecem na mesma proporção que os humanos, mas são considerados jovens até os 50 anos. Em média, vivem cerca de 350 anos.",
+            "Alinhamento": "A maioria dos anões é legal, acreditando firmemente nos benefícios de uma sociedade bem ordenada. Eles tendem para o bem também, com um forte senso de jogo limpo e uma crença de que todos merecem compartilhar os benefícios de uma ordem justa.",
+            "Tamanho": "Anões ficam entre 1,0 e 1,50  metros de altura e em média cerca de 150 quilos. Seu tamanho é Médio.",
+            "Velocidade": {"Descricao":"Sua velocidade de caminhada base é de 25 pés. Sua velocidade não é reduzida usando armaduras pesadas.","Modifica_Deslocamento":25},
+            "Visão escura": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Resiliência dos Anões": "Você tem vantagem em salvar lances contra veneno, e você tem resistência contra danos de veneno.",
+            "Treinamento de Combate de Anões": {"Descricao":"Você tem proficiência com o machado de batalha, machado de mão, martelo leve e martelo de guerra.","Treinamento":["machado de batalha", "machado de mão", "martelo leve", "martelo de guerra"]},
+            "Proficiência em ferramentas": "Você ganha proficiência com as ferramentas do artesão de sua escolha: ferramentas de ferreiro, suprimentos de cervejaria ou ferramentas de pedreiro.",
+            "Esperteza": {"Descricao":"Sempre que você faz uma verificação de Inteligência (Histórico) relacionada à origem da pedraria, você é considerado proficiente na habilidade de História e adiciona o dobro do seu bônus de proficiência ao cheque, em vez do seu bônus de proficiência normal.","Perícias":["História"]},
+            "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Dwarvish. O anões é cheio de consoantes duras e sons guturais, e essas características transbordam para qualquer outra língua que um anão possa falar.", "Idiomas":["Comum","Dwarvish"]}
+        },
+        "Dragonborn": {
+            "Aumento do escore de habilidade": {"Forca": 2, "Carisma": 1},
+            "Idade": "Os jovens nascidos do dragão crescem rapidamente. Eles caminham horas após a eclosão, atingem o tamanho e o desenvolvimento de uma criança humana de 10 anos aos 3 anos de idade e atingem a idade adulta aos 15. Eles vivem por volta dos 80 anos.",
+            "Alinhamento": "Dragonborn tendem para extremos, fazendo uma escolha consciente para um lado ou outro entre o Bem e o Mal (representados por Bahamut e Tiamat, respectivamente). Mais lado com Bahamut do que Tiamat (cujos seguidores não-dragão são principalmente kobolds), mas vilão dragonborn pode ser bastante terrível de fato. Alguns raros poucos escolhem se dedicar a divindades dragões menores, como Chronepsis (Neutro), e menos ainda escolhem adorar Io, o Dragão Nove, que é tudo alinhado ao mesmo tempo.",
+            "Tamanho": "Os dragonborn são mais altos e pesados que os humanos, com mais de 6 metros de altura e uma média de quase 250 quilos. Seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade de caminhada base é de 30 pés",
+            "Ancestralidade": "Draconiana. Você está distantemente relacionado a um tipo particular de dragão. Escolha um tipo de dragão na lista abaixo; Isso determina o dano e a área de sua arma de respiração e o tipo de resistência que você ganha.",
+            "Arma de Respiração": "Você pode usar sua ação para exalar energia destrutiva. Ele causa danos em uma área de acordo com sua ancestralidade. Quando você usa sua arma de respiração, todas as criaturas da área devem fazer um arremesso salvador, cujo tipo é determinado por sua ancestralidade. O DC deste lance de poupança é 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura leva 2d6 de dano em um salvamento fracassado e metade do dano em um bem-sucedido. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º e 5d6 no 16º nível. Depois de usar sua arma de respiração, você não pode usá-la novamente até completar um descanso curto ou longo. HBEm vez disso, você pode usar sua arma de respiração um número de vezes igual ao seu modificador da Constituição. Você recupera os usos gastos em um descanso curto ou longo.",
+            "Resistência a danos": "Você tem resistência ao tipo de dano associado à sua ancestralidade.",
+            "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum e Draconico.", "Idiomas":["Comum","Draconico"]},
+            "Cor do Dragão": {
+                "Preto":	["Ácido",	"Linha de 5' por 30' (DEX save)"],
+                "Azul":	["Relâmpago",	"Linha de 5' por 30' (DEX save)"],
+                "Latão":	["Fogo",	"Linha de 5' por 30' (DEX save)"],
+                "Bronze":	["Relâmpago",	"Linha de 5' por 30' (DEX save)"],
+                "Cobre":	["Ácido",	"Linha de 5' por 30' (DEX save)"],
+                "Ouro":	["Fogo",	"Cone de 15' (DEX save)"],
+                "Verde":	["Veneno",	"Cone de 15' (CON save)"],
+                "Vermelho":	["Fogo",	"Cone de 15' (DEX save)"],
+                "Prata":	["Frio",	"Cone de 15' (CON save)"],
+                "Branco":	["Frio",	"Cone de 15' (CON save)"]
+            }
+        },
+        "Elfo": {
+            "aumento do escore de habilidade": {"Destreza": 2},
+            "Idade": "Embora os elfos atinjam a maturidade física mais ou menos na mesma idade que os humanos, a compreensão élfica da idade adulta vai além do crescimento físico para abranger a experiência mundana. Um elfo normalmente reivindica a idade adulta e um nome adulto por volta dos 100 anos de idade e pode viver até os 750 anos de idade.",
+            "Alinhamento": "Os elfos amam a liberdade, a variedade e a auto-expressão, por isso inclinam-se fortemente para os aspectos mais suaves do caos. Eles valorizam e protegem a liberdade dos outros, bem como a sua própria, e são bons na maioria das vezes. Drow são uma exceção; seu exílio no Underdark os tornou viciosos e perigosos. Drow são mais frequentemente maus do que não.",
+            "Tamanho": "Os elfos variam de menos de 1,70 a mais de 2,30 metros de altura e têm construções esbeltas. Seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade de caminhada base é de 30 pés.",
+            "Visão escura": "Acostumado com florestas de twilit e o céu noturno, você tem visão superior em condições escuras e escuras. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Ancestralidade Fey": "Você tem vantagem em salvar guarda contra ser encantado, e a magia não pode colocá-lo para dormir.",
+            "Transe": "Os elfos não dormem. Em vez disso, meditam profundamente, permanecendo semiconscientes, por 4 horas por dia. A palavra comum para esta meditação é 'transe'. Enquanto medita, você sonha depois de uma moda; Tais sonhos são, na verdade, exercícios mentais que se tornaram reflexivos após anos de prática. Depois de descansar dessa forma, você ganha o mesmo benefício que um ser humano ganharia a partir de 8 horas de sono.",
+            "Sentidos aguçados": {"Descricao":"Você tem proficiência na habilidade Percepção.","Perícias":["Percepção"]},
+            "Idiomas":{"Descricao":"Você pode falar, ler e escrever Comum e Élfico.","Idiomas":["Comum","Élfico"]},
+            "Sub_Raca": {
+                "Elfo Negro": {
+                    "aumento do escore de habilidade": {"Carisma": 1},
+                    "Darkvision superior": "Sua visão escura tem um alcance de 120 pés, em vez de 60.",
+                    "Sensibilidade à luz solar": "Você tem desvantagem em rolos de ataque e verificações de Sabedoria (Percepção) que dependem da visão quando você, o alvo do ataque, ou o que quer que você esteja tentando perceber está sob luz solar direta.",
+                    "Drow Magia": {"Descrição":"Você conhece a cantrip Dancing Lights. Quando você chegar ao 3º nível, você pode lançar o feitiço Faerie Fire uma vez com essa característica e recuperar a capacidade de fazê-lo quando terminar um longo descanso. Quando você atingir o 5º nível, você pode lançar o feitiço Trevas uma vez e recuperar a capacidade de fazê-lo quando terminar um descanso longo. Carisma é a sua habilidade de feitiços para esses feitiços.","Magias":{"Truque": "Dancing Lights", "Nivel3":"Faerie Fire", "Nivel5":"Trevas"}},
+                    "Treinamento de Armas Drow": {"Descricao":"Você tem proficiência com rapieiras, espadas curtas e bestas de mão.","Treinamento":["Rapieiras","Espada Curta","Bestas de Mão"]}
+                }, "Alto Elfo":{
+                    "aumento do escore de habilidade": {"Inteligência": 1},
+                    "Cantrip": {"Descricao":"Você conhece um cantrip de sua escolha da lista de feitiços de Mago. A inteligência é a sua capacidade de feitiço.", "Escolha_Um_Truque":["Mago",1]},
+                    "Treinamento de Armas de Elfos": {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
+                    "Linguagem extra": {"Descricao":"Você pode ler, falar e escrever um idioma adicional de sua escolha.","Escolha_uma_Linguagem":1}
+                }, "Elfo da Floresta":{
+                    "aumento do escore de habilidade": "Sabedoria",
+                    "Treinamento de Armas de Elfos": {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
+                    "Frota de Pedestres": {"Descricao":"Sua velocidade de caminhada base aumenta para 35 pés.","Modifica_Deslocamento":35},
+                    "Máscara do Selvagem": "Você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por folhagens, chuva forte, neve caindo, névoa e outros fenômenos naturais."
+                }
+            }
+        },
+        "Gnome": {
+            "aumento do escore de habilidade": {"inteligência": 2},
+            "Idade": "Os gnomos amadurecem na mesma taxa que os humanos, e espera-se que a maioria se estabeleça na vida adulta por volta dos 40 anos. Eles podem viver até 350 anos em média, mas não é muito incomum que cheguem aos 500 anos de idade.",
+            "Alinhamento": "Os gnomos são geralmente bons. Aqueles que tendem para o Direito são sábios, engenheiros, pesquisadores, estudiosos, investigadores ou inventores. Aqueles que tendem para o Caos são muitas vezes menestréis, malandros, andarilhos ou joalheiros fantasiosos. Os gnomos são levianos, e até mesmo os malandros entre eles favorecem brincadeiras inofensivas em vez de esquemas viciosos.",
+            "Tamanho": "Os gnomos têm entre 3 e 4 metros de altura e pesam cerca de 40 quilos. Seu tamanho é pequeno.",
+            "Velocidade": {"Descricao":"Sua velocidade de caminhada base é de 25 pés.","Modifica_Deslocamento":25},
+            "Visão escura": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Gnome Astúcia": "Você tem vantagem em todas as salvas de Inteligência, Sabedoria e Carisma contra a magia.",
+            "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum e Gnomish.", "Idiomas":["Comum", "Gnomish"]},
+            "Sub_Raca":{
+                "Gnomo da Floresta":{
+                    "aumento do escore de habilidade": {"Destreza": 1},
+                    "Ilusionista Natural": {"Descricao":"Você conhece a Ilusão Menor. A inteligência é o seu modificador ortográfico para isso.","Magia":["Ilusão Menor"]},
+                    "Fale com Pequenas Feras": "Através de sons e gestos, você pode comunicar ideias simples com animais pequenos ou menores."
+                },
+                "Gnomo da Rocha": {
+                    "aumento do escore de habilidade": {"Constituição":1},
+                    "Lore do Artífice": "Sempre que você fizer uma verificação de Inteligência (Histórico) relacionada a itens mágicos, alquímicos ou tecnológicos, você pode adicionar o dobro do seu bônus de proficiência em vez de qualquer outro bônus de proficiência que possa ser aplicado.",
+                    "Tinker": "Você tem proficiência com ferramentas artesanais (ferramentas de funileiro). Usando essas ferramentas, você pode gastar 1 hora e 10 gp de materiais para construir um dispositivo de relógio minúsculo (AC 5, 1 hp). O dispositivo deixa de funcionar após 24 horas (a menos que você gaste 1 hora reparando-o para manter o dispositivo funcionando), ou quando você usa sua ação para desmontá-lo; Nesse momento, você pode recuperar os materiais usados para criá-lo. Você pode ter até três desses dispositivos ativos ao mesmo tempo. Ao criar um dispositivo. A critério da sua DM, você pode fazer outros objetos com efeitos semelhantes em poder a estes. A prestidigitação pode ser uma boa linha de base para tais efeitos.",
+                    "Ferrmentas":{
+                    "Brinquedo Mecânico": "Este brinquedo é um animal mecânico, monstro ou pessoa, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 5 pés pelo chão em cada uma de suas curvas em uma direção aleatória. Faz barulhos apropriados à criatura que representa.",
+                    "Acionador de incêndio": "O dispositivo produz uma chama em miniatura, que você pode usar para acender uma vela, tocha ou fogueira. Usar o dispositivo requer sua ação.",
+                    "Caixa de música": "Quando aberta, esta caixa de música reproduz uma única música em um volume moderado. A caixa pára de tocar quando chega ao final da música ou quando está fechada."}
+                }
+            }
+        },
+        "Meio-Elf": {
+            "aumento do escore de habilidade": {
+                "Carisma": 2, "Escolha_Habilidades":{"Quantidade":2,"Valor":1}
+            },
+            "Idade": "Os meio-elfos envelhecem na mesma proporção que os humanos, atingindo a idade adulta aos 20 anos. Eles vivem muito mais do que os seres humanos, no entanto, muitas vezes excedendo 180 anos.",
+            "Alinhamento": "Os meio-elfos compartilham a inclinação caótica de sua herança élfica. Ambos valorizam a liberdade pessoal e a expressão criativa, não demonstrando amor aos líderes nem desejo de seguidores. Eles se irritam com as regras, se ressentem das exigências dos outros e, às vezes, se mostram não confiáveis, ou pelo menos imprevisíveis. Eles são bons e maus em igual número, uma característica que compartilham com seus pais humanos.",
+            "Tamanho": "Os meio-elfos são mais ou menos do mesmo tamanho que os humanos, variando de 1,20 a 2,0 metros de altura. Seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade de caminhada base é de 30 pés.",
+            "Visão escura": "Graças à sua herança élfica, você tem uma visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Ancestralidade Fey": "Você tem vantagem em salvar arremessos contra ser encantado, e a magia não pode colocá-lo para dormir.",
+            "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum, Élfico e um idioma de sua escolha.", "Idiomas":["Comum","Élfico"], "Escolha_Idioma":1},
+            "Versatilidade de meio-Elfo":{
+                "Escolha uma das seguintes características": "Versatilidade de Habilidades (Geral). Você ganha proficiência em duas habilidades de sua escolha.",
+                "Treinamento de Armas de Elfos (High ou Wood Elf Heritage)":  {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
+                "Cantrip (Herança dos Elfos Altos)": "Você conhece um cantrip de sua escolha da lista de feitiços do assistente. A inteligência é a sua capacidade de feitiço.",
+                "Frota de Pé (Wood Elf Heritage)": {"Descricao":"Sua velocidade de caminhada base aumenta para 35 pés.","Modifica_Deslocamento":35},
+                "Máscara do Selvagem (Wood Elf Heritage)": "Você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por folhagens, chuva forte, neve caindo, névoa e outros fenômenos naturais.",
+                "Drow Magic (Herança dos Elfos Negros)": {"Descrição":"Você conhece a cantrip Dancing Lights. Quando você chegar ao 3º nível, você pode lançar o feitiço Faerie Fire uma vez com essa característica e recuperar a capacidade de fazê-lo quando terminar um longo descanso. Quando você atingir o 5º nível, você pode lançar o feitiço Trevas uma vez e recuperar a capacidade de fazê-lo quando terminar um descanso longo. Carisma é a sua habilidade de feitiços para esses feitiços.","Magias":{"Truque": "Dancing Lights", "Nivel3":"Faerie Fire", "Nivel5":"Trevas"}},
+                "Velocidade de Nado (Aquatic Elf Heritage)": "Você tem uma velocidade de natação de 30 pés."
+        }},
+        "Meio-Orc": {
+            "Aumento da pontuação de habilidade": {"Força": 2,"Constituição": 1},
+            "Idade": "Os meio-orcs amadurecem um pouco mais rápido que os humanos, atingindo a idade adulta por volta dos 14 anos. Eles envelhecem visivelmente mais rápido e raramente vivem mais de 75 anos.",
+            "Alinhamento": "Meio-orcs herdam uma tendência ao caos de seus pais orcs e não são fortemente inclinados ao bem. Meio-orcs criados entre orcs e dispostos a viver suas vidas entre eles geralmente são maus.",
+            "Tamanho": "Meio-orcs são um pouco maiores e mais corpulentos que os humanos e variam de 1,5 a mais de 1,80 metro de altura. Seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade básica de caminhada é de 9 metros.",
+            "Visão no escuro": "Graças ao seu sangue orc, você tem uma visão superior em condições de escuridão e penumbra. Você pode ver na penumbra a até 18 metros de você como se fosse uma luz brilhante, e na escuridão como se fosse uma luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Ameaçador": {"Descricao":"Você ganha proficiência na perícia Intimidação.", "Pericia": "Intimidação"},
+            "Resistência implacável": "Quando você é reduzido a 0 pontos de vida, mas não é morto imediatamente, você pode cair para 1 ponto de vida. Você não pode usar esse recurso novamente até terminar um descanso longo.",
+            "Ataques Selvagens": "Quando você consegue um acerto crítico com um ataque corpo a corpo com arma, você pode rolar um dos dados de dano da arma uma vez adicional e adicioná-lo ao dano extra do acerto crítico.",
+            "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Orc. Orc é uma linguagem áspera e áspera com consoantes fortes. Não tem escrita própria, mas está escrito na escrita anã.", "Idiomas":["Comum","Orc"]}
+        },
+        "Halfling": {
+            "Aumento da pontuação de habilidade":  {"Destreza": 2},
+            "Idade": "Um halfling atinge a idade adulta aos 20 anos e geralmente vive até meados do seu segundo século.",
+            "Alinhamento": "A maioria dos halflings são leais e bons. Via de regra, eles têm bom coração e são gentis, odeiam ver os outros sofrendo e não toleram a opressão. Eles também são muito ordeiros e tradicionais, contando fortemente com o apoio de sua comunidade e com o conforto dos velhos tempos.",
+            "Tamanho": "Os halflings têm em média cerca de um metro de altura e pesam cerca de 40 quilos. Seu tamanho é pequeno.",
+            "Velocidade": {"Descricao":"Sua velocidade básica de caminhada é de 25 pés.", "Modifica_Deslocamento":25},
+            "Sortudo": "Quando você obtém um 1 em uma jogada de ataque, teste de habilidade ou teste de resistência, você pode rolar novamente o dado. Você deve usar o novo resultado, mesmo que seja 1.",
+            "Corajoso": "Você tem vantagem em testes de resistência contra ficar assustado.",
+            "Ágil": "Você pode se mover pelo espaço de qualquer criatura de tamanho maior que o seu.",
+            "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Halfling.","Idiomas":["Comum","Halfling"]},
+            "Sub_Raca":{
+                "Pés Leves": {
+                    "Aumento da pontuação de habilidade": {"Carisma": 1},
+                    "Naturalmente furtivo": "Você pode tentar se esconder mesmo quando estiver apenas obscurecido por uma criatura que seja pelo menos um tamanho maior que você."
+                },
+                "Cerveja Preta":{
+                    "Aumento da pontuação de habilidade": {"Constituição": 1},
+                    "Resiliência robusta": "Você tem vantagem em testes de resistência contra veneno e resistência a dano de veneno."
+                }
+            }
+        },
+        "Humano": {
+            "Aumento da pontuação de habilidade": {"todos": 1},
+            "Idade": "Os humanos atingem a idade adulta no final da adolescência e vivem menos de um século.",
+            "Alinhamento": "Os humanos tendem a não ter nenhum alinhamento específico. O melhor e o pior são encontrados entre eles.",
+            "Tamanho": "Os humanos variam amplamente em altura e constituição física, de apenas 1,5 metro a bem mais de 1,80 metro de altura. Independentemente da sua posição nessa faixa, seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade básica de caminhada é de 9 metros.",
+            "Idiomas": "Você pode falar, ler e escrever Comum e um idioma extra de sua escolha. Os humanos normalmente aprendem as línguas de outros povos com quem lidam, incluindo dialetos obscuros. Eles gostam de polvilhar sua fala com palavras emprestadas de outras línguas: maldições orcs, expressões musicais élficas, frases militares anãs e assim por diante.",
+            "Variante":{
+                "Aumento da pontuação de habilidade":{"Quantidade":2, "Valor":1},
+                "Habilidades": {"Descricao":"Você ganha proficiência em uma habilidade de sua escolha.", "Escolha_uma_proficiencia":1},
+                "Façanha": {"Descricao":"Você ganha um Talento à sua escolha.", "Escolha_um_Talento":1}
+            }
+        },
+        "Tiefling": {
+            "Aumento da pontuação de habilidade": {"Carisma": 2},
+            "Idade": "Os tieflings amadurecem na mesma proporção que os humanos, mas vivem mais alguns anos.",
+            "Alinhamento": "Os Tieflings podem não ter uma tendência inata para o mal, mas muitos deles acabam a Malvada ou não, uma natureza independente inclina muitos tieflings a um alinhamento caótico.",
+            "Tamanho": "Tieflings são aproximadamente do mesmo tamanho e constituição física dos humanos. Seu tamanho é Médio.",
+            "Velocidade": "Sua velocidade básica de caminhada é de 9 metros.",
+            "Visão no escuro": "Graças à sua herança infernal, você tem uma visão superior no escuro e na penumbra. Você pode ver na penumbra a até 18 metros de você como se fosse uma luz brilhante, e na escuridão como se fosse uma luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Resistência Infernal": "Você tem resistência a danos de fogo.",
+            "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Infernal.", "Idiomas":["Comum","Infernal"]},
+            "Sub_Raca": {
+                "Linhagem de Asmodeus":{
+                    "Aumento da pontuação de habilidade":{"Inteligência": 1},
+                    "Legado Infernal.":{"Descricao":"Você conhece o truque da Taumaturgia . Depois de atingir o 3º nível, você pode lançar o feitiço Repreensão Infernal uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Escuridão uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Taumaturgia", "Nivel3": "Repreensão Infernal", "Nivel5":"Trevas"}}
+                },
+                "Linhagem de Baalzebul": {
+                    "Aumento da pontuação de habilidade":{"Inteligência": 1},
+                    "Legado de Maladomini": {"Descricao":"Você conhece o truque da Taumaturgia . Depois de atingir o 3º nível, você pode lançar o feitiço Raio da Doença uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Coroa da Loucura uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Taumaturgia","Nivel3":"Raio da Doença", "Nivel5":"Coroa da Loucura"}}
+                },
+                "Linhagem de Dispater": {
+                    "Aumento da pontuação de habilidade":{"Destreza": 1},
+                    "Legado de Dis": {"Descricao":"Você conhece o truque da Taumaturgia . Depois de atingir o 3º nível, você pode lançar o feitiço Disfarçar-se uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Detectar Pensamentos uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.", "Magias":{"Truque":"Taumaturgia","Nivel3":"Disfarce", "Nivel5":"Detectar Pensamentos"}}
+                },
+                "Linhagem de Fierna": {
+                    "Aumento da pontuação de habilidade":{"Sabedoria": 1},
+                    "Legado de Flegeto": {"Descricao":"Você conhece o truque Friends . Depois de atingir o 3º nível, você pode lançar o feitiço Encantar Pessoa uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Sugestão uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Amigos","Nivel3":"Encantar Pessoa","Nivel5":"Sugestão"}}
+                },
+                "Linhagem de Glasya": {
+                    "Aumento da pontuação de habilidade":{"Destreza": 1},
+                    "Legado de Malbolge": {"Descricao":"Você conhece o truque Ilusão Menor . Depois de atingir o 3º nível, você pode lançar o feitiço Disfarçar-se uma vez como um feitiço de 2º nível. Depois de atingir o 5º nível, você também pode lançar o feitiço Invisibilidade uma vez como um feitiço de 2º nível. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.", "Magias":{"Truque":"Ilusão Menor ","Nivel3": "Disfarce", "Nivel5": "Invisibilidade"}}
+                },
+                "Linhagem de Levisto": {
+                    "Aumento da pontuação de habilidade":{"Constituição": 1},
+                    "Legado da Estígia": {"Descricao":"Você conhece o truque Raio de Gelo . Depois de atingir o 3º nível, você pode lançar o feitiço Armadura de Agathys uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Escuridão uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.", "Magias":{"Truque":"Raio de Gelo","Nivel3":"Armadura de Agathys","Nivel5":"Escuridão Magica"}}
+                },
+                "Linhagem de Mamon": {
+                    "Aumento da pontuação de habilidade":{"Inteligência": 1},
+                    "Legado de Minauros": {"Descricao":"Você conhece o truque Mão Mágica . Depois de atingir o 3º nível, você pode lançar o feitiço Disco Flutuante do Tenser uma vez como um feitiço de 2º nível. Ao atingir o 5º nível, você também pode lançar o feitiço Arcane Lock uma vez. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Mão Magica","Nivel3":"Disco Flutuante","Nivel5":"Arcane Lock"}}
+                },
+                "Linhagem de Mefistófeles": {
+                    "Aumento da pontuação de habilidade":{"Inteligência": 1},
+                    "Legado de Cania": {"Descricao":"Você conhece o truque Mão Mágica . Depois de atingir o 3º nível, você pode lançar o feitiço Mãos Ardentes uma vez como um feitiço de 2º nível. Depois de atingir o 5º nível, você também pode lançar o feitiço Lâmina Flamejante uma vez como um feitiço de 3º nível. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Mão Magica","Nivel3":"Mãos Ardentes","Nivel5":"Lâmina Flamejante"}}
+                },
+                "Linhagem de Zariel": {
+                    "Aumento da pontuação de habilidade":{"Força": 1},
+                    "Legado de Averno": {"Descricao":"Você conhece o truque da Taumaturgia . Depois de atingir o 3º nível, você pode lançar o feitiço Searing Smite uma vez como um feitiço de 2º nível. Depois de atingir o 5º nível, você também pode lançar o feitiço Branding Smite uma vez como um feitiço de 3º nível. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Taumaturgia","Nivel3":"Searing Smite","Nivel5":"Branding Smite"}}
+                }
+            }
+        }
+    },
+    "Antecedente":{
+    "Acólito":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Intuição", "Religião"],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"símbolo sagrado": ["(um presente para você quando você entrou no sacerdócio)",1], "opcional":["livro de orações", "roda de orações"], "bastões de incenso":[5],"vestimentas": ["um conjunto deroupas comuns",1], "Moedas_PP": 15}
+    },
+    "Antropólogo":{
+        "Fonte": "Tumba da Aniquilação",
+        "Proficiências em Perícias": ["Intuição", "Religião"],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"diário":["diário encadernado em couro",1], "garrafa de tinta": 1, "Tinta de caneta":1, "roupas de viajante": 1, "Bugiganga": ["bugiganga de significado especial",1], "Moedas_PP": 10}
+    },
+    "Arqueólogo/Minerador":{
+        "Fonte": "Tumba da Aniquilação",
+        "Proficiências em Perícias": ["História", "Sobrevivência"],
+        "Proficiências em Ferramentas": {"Escolha_Ferramenta":["Ferramentas de cartógrafo", "ferramentas de navegador"]},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Mapa":["Um pergaminho contendo um mapa para uma ruína ou masmorra",1], "lanterna": 1, "roupas de viajante":1, "pá":1, "Barraca":[ "Barraca para duas pessoas",1],"Bugiganga":["bugiganga recuperada de um local de escavação",1], "Moedas_PP": 25}
+    },
+    "Atleta":{    
+        "Fonte": "Odisseias Míticas de Theros",
+        "Proficiências em Perícias": ["Acrobacia", "Atletismo"],
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Proficiências em Ferramentas": "Veículos (Terrenos)",
+        "Equipamento": {"Escolha_Equipamento": ["disco de bronze" ,"bola de couro"], "Escolha_Equipamento1":["amuleto da sorte", "troféu do passado"], "roupas de viajante":1, "Moedas_PO":10}
+    },
+    "Charlatão":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Enganação", "Prestidigitação"],
+        "Proficiências em Ferramentas": ["Kit de disfarce", "kit de falsificação"],
+        "Equipamento": {"conjunto deroupas legais":1, "kit de disfarce":1, "ferramentas do golpe":["dez rolhas de garrafas preenchido com líquido colorido", "um conjunto de dados", "baralho marcado", "um anel de prata de um duque imaginário"], "Moedas_PP": 15}
+    },
+    "Vigia da Cidade":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Atletismo", "Intuição"],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"Uniforme": ["Uniforme no estilo de sua unidade e indicativo de sua posição", 1], "Buzina": ["Buzina para pedir ajuda",1],"conjunto dealgemas": 1, "Moedas_PP": 10}
+    },
+    "Criador de Clã":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["História", "Intuição"],
+        "Proficiências em Ferramentas": {"Escolha_ferramenta_de_artesão": 1},
+        "Idiomas": ["Anão", "ou outro de sua escolha se você já fala Anão"],
+        "Equipamento": {"Escolha_ferramenta_de_artesão":1, "cinzel de marca de fabricante":["cinzel de marca de fabricante usado para marcar seu trabalho manual com o símbolo do clã de artesãos com o qual você aprendeu sua habilidade",1], "roupas de viajante": 1, "Moedas_PP": 5, "Joia no valor de 10gp":1}
+    },
+    "Estudioso Enclausurado":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["História", {"Escolha_perícias":["Arcanos", "Natureza", "Religião"]}],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"Caderno de Anotações": ["Um caderno com suas anotações",1], "kit de escrita": ["pequena bolsa com uma pena, agarrafa de tinta, pergaminho dobrado, e um canivete pequeno",1], "Livro": ["livro sobre o assunto do seu estudo atual",1], "Moedas_PP": 10}
+    },
+    "Cortesão":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Intuição", "Persuasão"],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"conjunto de roupas": ["Um conjunto de roupas legais", 1] ,"Moedas_PP": 5}
+    },
+    "Criminoso":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Enganação", "Furtividade"],
+        "Proficiências em Ferramentas":"ferramentas de ladrões", "Escolha_conjunto_de_jogo":1, 
+        "Equipamento": {"Apé de cabra":1,"roupas comuns":["um conjunto de roupas comuns incluindo um capuz",1] ,"Moedas_PP": 15}
+    },
+    "Artista":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Acrobacia", "Artes"],
+        "Proficiências em Ferramentas": ["Kit de disfarce", {"Escolha_Inturmentos":1}],
+        "Equipamento": {"Escolha_Inturmentos":1, "Presente de um admirador":["(carta de amor, mecha de cabelo ou bugiganga)",1], "fantasia":1, "Moedas_PP": 15}
+    },
+    "Sem rosto":{
+        "Fonte": "Baldur's Gate - Descida ao Averno",
+        "Proficiências em Perícias": ["Enganação", "Intimidação"],
+        "Proficiências em Ferramentas": "Kit de Disfarce",
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Akit de disfarce":1, "afantasia":1, "Moedas_PP": 10}
+    },
+    "Agente de Facção":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Intuição",{"Escolha_Perícias":["Inteligência", "Sabedoria", "Carisma"]}],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"Distintivo": ["Distintivo ou emblemada sua facção",1], "Texto secreto":["uma cópia de um texto seminal da facção (ou um livro de códigos para uma facção secreta)",1],  "roupas comuns": 1, "Moedas_PP":15}
+    },
+    "Viajante Distante":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Intuição", "Percepção"],
+        "Proficiências em Ferramentas": {"Escolha_InturmentosMusical_KitDeJogos":1},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Roupas de viajante":1, "Escolha_InturmentosMusical_KitDeJogos":1, "Mapas": ["mapas mal elaborados de sua terra natal que retratam onde você está em Faerûn",1], "Joia":["joia no valor de 10gp no estilo do artesanato de sua terra natal",1],"Moedas_PP": 5}
+    },
+    "Feylost":{
+        "Fonte": "The Wild Beyond the Witchlight",
+        "Proficiências em Perícias": ["Enganação", "Sobrevivência"],
+        "Proficiências em Ferramentas": {"Escolha_Instrumento":1},
+        "Idiomas": {"Escolha_Idioma": ["Élfico", "Gnômico", "Goblin", "Silvestre"]},
+        "Equipamento": {"Escolha_Inturmentos":1, "roupas de viajante":1, "Escolha_Bugicangas": 3, "Moedas_PP":8}
+    },
+    "Pescador":{
+        "Perícias": ["História", "Sobrevivência"],
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Equipamento de pesca":1, "rede":1, "Escolha_Equipamento": ["isca de pesca favorita", "botas de couro oleadas"], "roupas de viajante":1, "Moedas_PO": 10}
+    },
+    "Herói Do Povo":{
+        "Fonte": "Manual do Jogador",
+        "Perícias": ["Adestrar de Animais", "Sobrevivência"],
+        "Proficiências em Ferramentas": [{"Escolha_ferramenta_de_artesão":1}, "veículos (terrestres)"],
+        "Equipamento": {"Escolha_ferramenta_de_artesão":1, "pá":1, "panela de ferro":1, "roupas comuns":1, "Moedas_PP": 10}
+    },
+    "Enjeitado Gigante":{
+        "Fonte": "Bigby Presents - Glória dos Gigantes",
+        "Proficiências em Perícias": ["Intimidação", "Sobrevivência"],
+        "Idiomas": ["Gigante", {"Escolha_Idioma": 1}],
+        "Equipamento": {"mochila":1, "roupas de viajante":1, "Escolha_Equipamento":["pequena pedra", "raminho"], "Moedas_PO": 10}
+    },
+    "Gladiador":{
+
+    },
+    "Artesão de Guilda":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Intuição", "Persuasão"],
+        "Proficiências em Ferramentas": {"Escolha_ferramenta_de_artesão":1},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Escolha_ferramenta_de_artesão":1,"carta de apresentação de sua guilda":1, "roupas de viajante":1, "Moedas_PP": 15}
+    },
+    "Guilda Comerciante":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Intuição", "Persuasão"],
+        "Proficiências em Ferramentas":{"Escolha_ferramenta_de_artesão":1},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Escolha_ferramenta_de_artesão":1, "Carta":["Carta de apresentação de sua guilda",1] , "roupas de viajante":1,"Moedas_PP": 15}
+    },
+    "Assombrado":{
+        "Fonte": "Maldição de Strahd",
+        "Proficiências em Habilidades": {"Quantidade":2,"Escolha_Perícias": ["Arcana", "Investigação", "Religião", "Sobrevivência"]},
+        "Equipamento": {"pacote de caçador": 1, "Bugiganga":["Bugiganga de significado especial (escolha uma ou role na mesa de Bugigangas Góticas)",1], "roupas comun":1}
+    },
+    "Eremita":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Medicina", "Religião"],
+        "Proficiências em Ferramentas": "Kit de Herbalismo",
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"Acaixa de Pergaminhos":[" Caixa de Pergaminhos cheio de anotações de seus estudos ou orações",1],"cobertor de inverno":1, "roupas comuns":1, "kit de Herbalismo":1, "Moedas_PP": 5}
+    },
+    "Agente da Casa":{
+        "Fonte": "Eberron - Ressurgindo da Última Guerra",
+        "Proficiências em Perícias": ["Investigação", "Persuasão"],
+        "Proficiências em Ferramentas": {"Escolha_Ferramenta":2},
+        "Equipamento":{"roupas legais":1,"Anel": ["anel de sinete da sua casa",1], "documentos de identificação":1, "Moedas_PP": 20}
+    },
+    "Herdeiro":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Sobrevivência", {"Escolha_Pericias": ["Arcanos", "História" ,"Religião"]}],
+        "Proficiências em Ferramentas": {"Escolha_Instrumento":1},
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"herança":["Escolha uma herança junto ao seu mestre",1], "roupas de viajante":1, "Escolha_ferramenta_de_artesão":1, "Moedas_PP": 15}
+    },
+    "Investigador (SCAG)":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Atletismo", "Prestidigitação"],
+        "Idiomas": {"Escolha_Idioma": 2},
+        "Equipamento": {"Uniforme": ["Uniforme no estilo de sua unidade e indicativo de sua posição",1], "Buzina": ["um buzina para pedir ajuda",1],"dealgemas":1, "Moedas_PP": 10}
+    },
+    "Investigador (VRGR)":{
+        "Fonte": "Guia de Van Richten para Ravenloft",
+        "Proficiências em Perícias": {"Quantidade":2,"Pericias":["Intuição", "Investigação", "Percepção"]},
+        "Proficiências em Ferramentas": ["Kit de disfarce", "ferramentas de ladrões"],
+        "Equipamento": {"Alupa":1, "Bugiganga": ["evidência de um caso passado (escolha uma ou jogue uma bugiganga da tabela Bugigangas de Terror )",1], "roupas comuns": 10}
+    },
+    "Cavaleiro":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["História", "Persuasão"],
+        "Proficiências em Ferramentas": {"Escolha_conjunto_de_jogo":1},
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"roupas legais":1, "Anel": ["anel de sinete",1], "pergaminho": ["Pergaminho de pedigree",1], "Moedas_PP": 25}
+    },
+    "Cavaleiro da Ordem":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Persuasão", {"Escolha_Pericias":["Arcanos", "História", "Natureza ", "Religião"]}],
+        "Proficiências em Ferramentas": {"Escolha_Jogos_ou_Instrumento":["Escolha_conjunto_de_jogo", "Escolha_Instrumento"]},
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"roupas de viajante":1, "sinete":1, "Escolha_Equipamento":["estandarte","selo"], "Moedas_PP":10}
+    },
+    "Fuzileiro Naval":{
+        "Proficiências em Habilidades": ["Atletismo","Sobrevivência"],
+        "Proficiências em Ferramentas": ["Veículos (aquáticos)", "Veículos (terrestres)"],
+        "Equipamento":  {"Punhal":["Punhal que pertencia a um camarada caído",1], "Bandeira":["um trapo dobrado estampado com o símbolo do seu navio ou companhia",1], "roupas de viajante": 1, "Moedas_PP": 10}
+    },
+    "Veterano Mercenário":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Atletismo", "Persuasão"],
+        "Proficiências em Ferramentas":  ["veículos (terrestres)", {"Escolha_conjunto_de_jogo":1}],
+        "Equipamento": {"Uniforme": ["Uniforme de sua empresa (roupas de viajante em qualidade)",1], "Insígnia": ["Insígnia de sua classificação",1], "Escolha_KitDeJogos":1, "Moedas_PP": 10}
+    },
+    "Nobre":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["História", "Persuasão"],
+        "Proficiências em Ferramentas": {"Escolha_conjunto_de_jogo":1},
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"roupas legais":1, "Anel": ["anel de sinete",1], "Pergaminho": ["Pergaminho de pedigree",1], "Moedas_PP": 25}
+    },
+    "Forasteiro":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Atletismo", "Sobrevivência"],
+        "Proficiências em Ferramentas": {"Escolha_Instrumento":1},
+        "Idiomas": {"Escolha_Idioma":1},
+        "Equipamento": {"Afuncionários":1, "armadilha de caça":1, "Trofel":["um troféu de um animal que você matou",1], "roupas de viajante":1, "Moedas_PP": 10}
+    },
+    "Pirata":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Atletismo", "Percepção"],
+        "Proficiências em Ferramentas": ["Ferramentas de Navegador", "veículos (aquáticos)"],
+        "Equipamento": {"Identificador": ["Um pino de segurança (clube)",1], "Corda":["50 pés decorda de seda",1],"Amuleto": ["um amuleto da sorte como uma pata de coelho ou uma pequena pedra com um buraco no centro (ou você pode rolar para obter uma bugiganga aleatória na mesa de bugigangas no capítulo 5)",1], "roupas comuns":1, "Moedas_PP": 10}
+    },
+    "Recompensado":{
+        "Fonte": "O Livro de Muitas Coisas",
+        "Proficiências em Habilidades": ["Insight", "Persuasão"],
+        "Idiomas": {"Escolha_Idioma":1},
+        "Proficiências em ferramentas": {"Escolha_conjunto_de_jogo":1},
+        "Equipamento": {"Garrafa":["Garrafa de tinta preta",1], "Tinta de caneta":1, "folhas de papel":5, "Escolha_KitDeJogos":1, "anel de sinete":1, "roupas legais":1,"Moedas_PO": 18}
+    },
+    "Arruinado":{
+        "Fonte": "O Livro de Muitas Coisas",
+        "Proficiências em Habilidades": ["Furtividade", "Sobrevivência"],
+        "Idiomas": {"Escolha_Idioma":1},
+        "Proficiências em ferramentas": {"Escolha_conjunto_de_jogo":2},
+        "Equipamento": {"ampulheta rachada":1, "conjunto de algemas enferrujadas":1,  "Garrafa": ["Garrafa meio vazia",1], "armadilha de caça":1,  "Escolha_KitDeJogos":1, "roupas de viajante":1, "Moedas_PO": 13}
+    },
+    "Escultor de Runas":{
+        "Fonte": "Bigby Presents - Glória dos Gigantes",
+        "Proficiências em Perícias": ["História", "Percepção"],
+        "Proficiências em Ferramentas": {"Escolha_ferramenta_de_artesão":1},
+        "Idiomas": "Gigante",
+        "Equipamento": {"Escolha_ferramenta_de_artesão": 1, "faca pequena":1,"pedra de amolar":1,"roupas comuns":1, "Moedas_PO": 10}
+    },
+    "Sábio":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Arcana", "História"],
+        "Idiomas": {"Escolha_Idioma":2},
+        "Equipamento": {"Agarrafa de tinta":1, "pena":1, "faca pequena":1, "carta":["Carta de um colega falecido fazendo uma pergunta que você ainda não conseguiu responder",1], "roupas comuns":1, "Moedas_PP": 10}
+    },
+    "Marinheiro":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Atletismo", "Percepção"],
+        "Proficiências em Ferramentas": ["Ferramentas de Navegador", "veículos (aquáticos)"],
+        "Equipamento": {"Pino": ["pino de segurança (clube)",1], "Corda": ["50 pés decorda de seda",1], "Amuleto": ["amuleto da sorte, como uma pata de coelho ou uma pequena pedra com um buraco no centro (ou você pode rolar para obter uma bugiganga aleatória na mesa de bugigangas no capítulo 5)",1], "roupas comuns":1, "Moedas_PP": 10}
+    },
+    "Construtor Naval":{
+        "Fonte": "Fantasmas de Saltmarsh",
+        "Proficiências em Perícias": ["História", "Percepção"],
+        "Proficiências em Ferramentas": ["Ferramentas de carpinteiro", "Veículos (água)"],
+        "Equipamento":{ "ferramentas de carpinteiro":["Conjunto de Ferramentas muito apreciadas",1], "livro em branco": 1, "Tinta": ["30 gramas de tinta",1], "Caneta":["caneta de tinta",1], "roupas de viajante":1, "Moedas_PO": 10}
+    },
+    "Contrabandista":{
+        "Fonte": "Fantasmas de Saltmarsh",
+        "Proficiências em Perícias": ["Atletismo", "Percepção"],
+        "Proficiências em Ferramentas": "Veículos (água)",
+        "Equipamento": {"Escolha_Equipamento":["colete de couro chique","par de botas de couro"],"roupas comuns":1, "Moedas_PP": 15 }
+    },
+    "Soldado":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Atletismo", "Intimidação"],
+        "Proficiências em Ferramentas": [{"Escolha_conjunto_de_jogo":1}, "veículos (terrestres)"],
+        "Equipamento": {"Insignia": ["insígnia de classificação",1], "Trofel": ["troféu tirado de um inimigo caído (umpunhal, lâmina quebrada ou pedaço de estandarte)",1], "Bugigangas": [{"Escolha_Equipamento":["conjunto de dados de ossos ", "um baralho decartas"]}],  "roupas comuns":1, "Moedas_PP": 10}        
+    },
+    "Espião":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Enganação", "Furtividade"],
+        "Proficiências em Ferramentas": [{"Escolha_conjunto_de_jogo":1}, "ferramentas de ladrões"],
+        "Equipamento": {"Apé de cabra":1, "roupas comuns": 1,"Moedas_PP": 15}
+    },
+    "Caçador de Recompensas Urbano":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Perícias": {"Quantidade":2,"Escolha_Pericias":["Enganação", "Perspicácia", "Persuasão", "Furtividade"]},
+        "Proficiências em Ferramentas": {"Escolha_Jogo_FerAladrão_Instrumento":2},
+        "Equipamento": { "roupas comuns":1, "Moedas_PP": 20}
+    },
+    "Ouriço":{
+        "Fonte": "Manual do Jogador",
+        "Proficiências em Perícias": ["Prestidigitação","Furtividad"],
+        "Ferramentas  Proficiências": ["Kit de disfarce", "ferramentas de ladrão"],
+        "Equipamento": {"faca pequena":1, "Mapa":["mapa da cidade em que você cresceu",1], "Companheiro": ["rato de estimação",1], "Bugiganga": ["símbolo para lembrar seus pais",1], "roupas comuns":1, "Moedas_PP": 10}
+    },
+    "Membro da Tribo Uthgardt":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["Atletismo","Sobrevivência"],
+        "Proficiências": {"Escolha_Instrumento_Ferramenta":1},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"armadilha de caça":1, "símbolo sagrado":[{"Escolha_Equipamento":["símbolo totêmico", "conjunto de tatuagens marcando sua lealdade a Uthgar e seu totem tribal"]},1], "roupas de viajante":1, "Moedas_PP": 10}
+    },
+    "Nobre Águas Profundas":{
+        "Fonte": "Guia do Aventureiro da Costa da Espada",
+        "Proficiências em Perícias": ["História", "Persuasão"],
+        "Proficiências em Ferramentas": {"Escolha_InturmentosMusical_KitDeJogos":1},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"roupas legais":1, "Anel": ["anel de sineteou broche",1], "rolo de linhagem":1, "Garrafa":[{"Escolha_Equipamento":["pelede zzar", "vinho fino"]},1] , "Moedas_PP": 20}
+    },
+    "Mão da Luz Bruxa":{
+        "Fonte": "The Wild Beyond the Witchlight",
+        "Perícias": ["Desempenho", "Prestidigitação"],
+        "Proficiências com ferramentas": {"Escolha_umaopcao":["Kit de disfarce",{"Escolha_Instrumento":1}]},
+        "Idiomas": {"Escolha_Idioma": 1},
+        "Equipamento": {"Escolha_umaopcao":["Kit de disfarce",{"Escolha_Instrumento":1}],"baralho de cartas":1, "Escolha_Equipamento": ["uniforme de carnaval","fantasia"], "Bugiganga": ["bugiganga (determinada rolando na mesa Feywild Trinkets)",1],"Moedas_PP": 8}
+    }
+    },
+    "Alinhamento":[
+        "LB",
+        "LN",
+        "LM",
+        "NB",
+        "NN",
+        "NM",
+        "CB",
+        "CN",
+        "CM"
+    ]
+}]
+    

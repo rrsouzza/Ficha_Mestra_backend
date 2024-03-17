@@ -1,0 +1,187 @@
+Usuarios {
+    id - Int / primary_key
+    nome - String
+    senha - String
+    email - String
+}
+
+Mesa {
+    id - Int / primary_key
+    mestre - Usuarios_id
+    jogadores - Usuarios_id
+    rpg_jogado - String
+}
+
+
+--> Definido a forma de Criação o banco só vai receber os nomes sem descrição, quandor for para o beck-end ele pesquisa a descrição e enviar para fornt-end
+
+fichas_DeD{
+    Principais:
+    id - Int / primary_key
+    id_Usuario_Primary - Usuarios_id
+    id_Mesa - Mesa_id
+    id_mestre_mesa - Mesa_id_mestre
+
+    Gerais:
+    Nome_do_jogador - String
+    Nome_do_personagem - String
+    Classe - String
+    Nivel - Int
+    Raca - String
+    Antecedente - String
+    Ponto_XP - Int
+    Alinhamento - String
+    Vida - Int
+    Vida_Temporaria - Int
+    Vida_Atual - Int
+    Dados_de_Vida - Int
+    Deslocamento - Int
+    Iniciativa - Int
+    Classe_de_Armadura - Int
+    Caracterisitcas_Talentos - String --> Os talentos e catacteristicas tambem tem nomes e Descriçoes
+    Outras_Proficiencias_e_Idiomas - String
+    Percepcao_Passiva - Int
+
+    Atributos:
+    Forca - Int
+    Destreza - Int
+    Constituicao - Int
+    Inteligencia - Int
+    Sabedoria - Int
+    Carisma - Int
+
+    Morais:
+    Ponto_Insperacao - bool
+    Bonus_de_Proficiencia - Int
+
+    Salvaguardas:
+    Salvaguarda_Forca - Int
+    Salvaguarda_Destreza - Int
+    Salvaguarda_Constituicao - Int
+    Salvaguarda_Inteligencia - Int
+    Salvaguarda_Sabedoria - Int
+    Salvaguarda_Carisma - Int
+
+    Treinado_Salvaguarda_Forca - bool
+    Treinado_Salvaguarda_Destreza - bool 
+    Treinado_Salvaguarda_Constituicao - bool 
+    Treinado_Salvaguarda_Inteligencia - bool 
+    Treinado_Salvaguarda_Sabedoria - bool    
+    Treinado_Salvaguarda_Carisma - bool  
+
+    Pericias:
+    Acrobacia - Int
+    Arcanismo - Int
+    Atletismo - Int
+    Atuação - Int
+    Enganação - Int
+    Furtividade - Int
+    História - Int
+    Intimidação - Int
+    Intuição - Int
+    Investigação - Int
+    Lidar_com_Animais - Int
+    Medicina - Int
+    Natureza - Int
+    Percepção - Int
+    Persuasão - Int
+    Prestidigitação - Int
+    Religião - Int
+    Sobrevivência - Int
+    
+    Treinada_Acrobacia - bool
+    Treinada_Arcanismo - bool
+    Treinada_Atletismo - bool
+    Treinada_Atuação - bool
+    Treinada_Enganação - bool
+    Treinada_Furtividade - bool
+    Treinada_História - bool
+    Treinada_Intimidação - bool
+    Treinada_Intuição - bool
+    Treinada_Investigação - bool
+    Treinada_Lidar_com_Animais - bool
+    Treinada_Medicina - bool
+    Treinada_Natureza - bool
+    Treinada_Percepção - bool
+    Treinada_Persuasão - bool
+    Treinada_Prestidigitação - bool
+    Treinada_Religião - bool
+    Treinada_Sobrevivência - bool
+
+    Tracos_de_Personalidades:
+    Tracos_de_Personalidade - String
+    Ideais - String
+    Vinculos - String
+    Fraquezas - String
+
+    Salguardas:
+    Salguarda_Sucesso1 - bool
+    Salguarda_Sucesso2 - bool
+    Salguarda_Sucesso3 - bool
+    Salguarda_Farcasso1 - bool
+    Salguarda_Farcasso2 - bool
+    Salguarda_Farcasso3 - bool
+
+    Equipamentos:
+    Equipamento - String --> Tambem tem nome e caracteristicas
+    Moeda_Cobre - Int
+    Moeda_Prata - Int
+    Moeda_Electro - Int
+    Moeda_Ouro - Int
+    Moeda_Platina - Int
+
+    Caracterisitcas:
+    Idade - Int
+    Altura - Float
+    Cor_da_Pele - String
+    Cor_dos_Olhos -String
+    Peso - Float
+    Imagem_do_Personagem - String
+    Aliados_Organizacoes - String
+    História_do_Personagem - String
+    Tesouros - String
+
+    Magias: --> As magias contem "nome" e "descrições" o ideal seira colocar só os nomes, mas não sei se na hora de fazer a pesquisa pela "descrição" pode ocorrer deley  
+    Truques - String
+    Magia_Nivel_1 - String
+    Magia_Nivel_2 - String
+    Magia_Nivel_3 - String
+    Magia_Nivel_4 - String
+    Magia_Nivel_5 - String
+    Magia_Nivel_6 - String
+    Magia_Nivel_7 - String
+    Magia_Nivel_8 - String
+    Magia_Nivel_9 - String
+    Pontos_de_Magia_Nivel_1 - Int
+    Pontos_de_Magia_Nivel_2 - Int
+    Pontos_de_Magia_Nivel_3 - Int
+    Pontos_de_Magia_Nivel_4 - Int
+    Pontos_de_Magia_Nivel_5 - Int
+    Pontos_de_Magia_Nivel_6 - Int
+    Pontos_de_Magia_Nivel_7 - Int
+    Pontos_de_Magia_Nivel_8 - Int
+    Pontos_de_Magia_Nivel_9 - Int
+
+    Atributos_Magicos:
+    Classe_Conjuradora - String
+    Atributo_de_Conjuracao - String
+    CD_para_Evitar_suas_Magias - Int
+    Modificador_de_Ataque_Mágico - Int
+}
+
+
+
+
+
+
+
+
+
+
+-- Anotação do padrão de fichas
+fichas_DeD{
+    id - Int / primary_key
+    id_Usuario_Primary - Usuarios_id
+    id_Mesa - Mesa_id
+    id_mestre_mesa - Mesa_id_mestre
+}
