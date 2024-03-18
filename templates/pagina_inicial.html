@@ -42,6 +42,7 @@
           <label for="">Nome do Personagem: </label>
           <input type="text" name="" id="">
           <select id="Raca" class="form-select" aria-label="Default select example" onchange="validarRaca(this.value)">
+            <option name="Racas" value="{{registro}}">Escolha uma Opção</option>
             {% for registro in dados.Raças.keys() %}
                 <option name="Racas" value="{{registro}}">{{registro}}</option>
             {% endfor %}
@@ -55,8 +56,8 @@
           <input type="number" name="" id="" onchange="validandoNivel(this.value)" min="1" max="20">
           <div>
             <label for="">Força: </label>
-            <input type="number" id="testevalor" name="" value="XX" readonly>
-            <input type="number" name="" onchange="Inceriratributos(this.value)" min="-8" max="30">
+            <input type="number" id="atributoForca" name="" value="XX" readonly>
+            <input type="number" name="" onchange="Inceriratributoforca(this.value)" min="-8" max="30">
           </div>
         </div>
         <div class="modal-footer">
@@ -97,6 +98,12 @@
 
   var lista = ""
   var Raca_Escolhida = ""
+  var At_forca = 0
+  var At_Agilidade = 0
+  var At_Constituicao = 0
+  var At_Intelecto = 0
+  var At_Sabedoria = 0
+  var At_Carisma = 0
 
   fetch('http://127.0.0.1:5000/dados-fichas')
     .then(response => {
@@ -116,7 +123,7 @@
       // crie o handler de error aqui
       console.log('ERRO NA CHAMADA', error);
   });
-  function Inceriratributos(valor){
+  function Inceriratributoforca(valor){
     var res
     res = (valor-10)/2
     if (res>0){
@@ -124,11 +131,20 @@
     }else{
       res = Math.ceil(res)
     }
-    document.getElementById("testevalor").value = res
-    console.log(res)
+    document.getElementById("atributoForca").value = res + At_forca // Continuar a validar as entradas de dados
   }
   function validarRaca(Raca){
-    console.log(Raca_Escolhida)
+    for(var i in lista["Raças"][Raca]){
+      if (i == "Aumento do escore de habilidade"){
+        for (var atributo in lista["Raças"][Raca][i]){
+          if (atributo == "Constituição"){
+            At_Constituicao = Number(lista["Raças"][Raca][i][atributo])
+          }
+        }
+      }
+      console.log( i + "-->" + lista["Raças"][Raca][i])
+    }
+
   }
   function validandoNivel(nivel){
     if (nivel > 20 || nivel<1 ){
