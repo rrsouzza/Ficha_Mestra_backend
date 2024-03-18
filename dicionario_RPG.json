@@ -112,114 +112,135 @@
             "20":{"Bonus de Proficiência":6, "Habilidade":["Melhoria da Intervenção Divina"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
         },
         "Druida": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+            "1": {"Bonus de Proficiência": 2,"Habilidade":["Druídico", "Feitiço"],"Truques Conhecidos": 2,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "2": {"Bonus de Proficiência": 2,"Habilidade":["Forma Selvagem", "Círculo Druida", "Companheiro Selvagem (Opcional)"],"Truques Conhecidos": 2,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "3": {"Bonus de Proficiência": 2,"Habilidade":[""] ,"Truques Conhecidos": 2,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "4": {"Bonus de Proficiência": 2,"Habilidade":["Melhoria de forma selvagem", "melhoria de pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "5": {"Bonus de Proficiência": 3,"Habilidade":[""] ,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "6": {"Bonus de Proficiência": 3,"Habilidade":["Recurso Círculo Druida"],"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "7": {"Bonus de Proficiência": 3,"Habilidade":[""] ,"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "8": {"Bonus de Proficiência": 3,"Habilidade":["Melhoria de forma selvagem", "melhoria de pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "9": {"Bonus de Proficiência": 4,"Habilidade":[""],"Truques Conhecidos": 3,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "10": {"Bonus de Proficiência": 4,"Habilidade":["Recurso Círculo Druida"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "11": {"Bonus de Proficiência": 4,"Habilidade":[""] ,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "12": {"Bonus de Proficiência": 4,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "13": {"Bonus de Proficiência": 5,"Habilidade":[""] ,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "14": {"Bonus de Proficiência": 5,"Habilidade":["Recurso Círculo Druida"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "15": {"Bonus de Proficiência": 5,"Habilidade":[""] ,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "16": {"Bonus de Proficiência": 5,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "17": {"Bonus de Proficiência": 6,"Habilidade":[""] ,"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "18": {"Bonus de Proficiência": 6,"Habilidade":["Corpo Atemporal", "Feitiços de Besta"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "19": {"Bonus de Proficiência": 6,"Habilidade":["Melhoria na pontuação de habilidade", "versatilidade de truques (opcional)"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "20": {"Bonus de Proficiência": 6,"Habilidade":["Arquidruida"],"Truques Conhecidos": 4,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
         },
         "Feiticeiro": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+            "1": {"Bonus de Proficiência": 2,"Pontos de Feitiçaria": 0, "Habilidade": ["Feitiço", "Origem Feiticeira"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 2,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "2": {"Bonus de Proficiência": 2,"Pontos de Feitiçaria": 2, "Habilidade": ["Fonte da Magia"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 3,"Magia N1": 3,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "3": {"Bonus de Proficiência": 2,"Pontos de Feitiçaria": 3, "Habilidade": ["Metamágica"],"Truques Conhecidos": 4,"Feitiços Conhecidos": 4,"Magia N1": 4,"Magia N2": 2,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "4": {"Bonus de Proficiência": 2,"Pontos de Feitiçaria": 4, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Feiticeira (Opcional)"],"Truques Conhecidos": 5,"Feitiços Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "5": {"Bonus de Proficiência": 3,"Pontos de Feitiçaria": 5, "Habilidade": ["Orientação Mágica (Opcional)"],"Truques Conhecidos": 5,"Feitiços Conhecidos": 6,"Magia N1": 4,"Magia N2": 3,"Magia N3": 2,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "6": {"Bonus de Proficiência": 3,"Pontos de Feitiçaria": 6, "Habilidade": ["Recurso de Origem Feiticeira"],"Truques Conhecidos": 5,"Feitiços Conhecidos": 7,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "7": {"Bonus de Proficiência": 3,"Pontos de Feitiçaria": 7, "Habilidade": [""],"Truques Conhecidos": 5,"Feitiços Conhecidos": 8,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 1,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "8": {"Bonus de Proficiência": 3,"Pontos de Feitiçaria": 8, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Feiticeira (Opcional)"],"Truques Conhecidos": 5,"Feitiços Conhecidos": 9,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 2,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "9": {"Bonus de Proficiência": 4,"Pontos de Feitiçaria": 9, "Habilidade": [""],"Truques Conhecidos": 5,"Feitiços Conhecidos": 10,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 1,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "10": {"Bonus de Proficiência": 4,"Pontos de Feitiçaria": 10, "Habilidade": ["Metamágica"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 11,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "11": {"Bonus de Proficiência": 4,"Pontos de Feitiçaria": 11, "Habilidade": [""],"Truques Conhecidos": 6,"Feitiços Conhecidos": 12,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "12": {"Bonus de Proficiência": 4,"Pontos de Feitiçaria": 12, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Feiticeira (Opcional)"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 12,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
+            "13": {"Bonus de Proficiência": 5,"Pontos de Feitiçaria": 13, "Habilidade": [""],"Truques Conhecidos": 6,"Feitiços Conhecidos": 13,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "14": {"Bonus de Proficiência": 5,"Pontos de Feitiçaria": 14, "Habilidade": ["Recurso de Origem Feiticeira"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 13,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 0,"Magia N9": 0},
+            "15": {"Bonus de Proficiência": 5,"Pontos de Feitiçaria": 15, "Habilidade": [""],"Truques Conhecidos": 6,"Feitiços Conhecidos": 14,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "16": {"Bonus de Proficiência": 5,"Pontos de Feitiçaria": 16, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Feiticeira (Opcional)"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 14,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 0},
+            "17": {"Bonus de Proficiência": 6,"Pontos de Feitiçaria": 17, "Habilidade": ["Metamágica"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 2,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "18": {"Bonus de Proficiência": 6,"Pontos de Feitiçaria": 18, "Habilidade": ["Recurso de Origem Feiticeira"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 1,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "19": {"Bonus de Proficiência": 6,"Pontos de Feitiçaria": 19, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Feiticeira (Opcional)"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 1,"Magia N8": 1,"Magia N9": 1},
+            "20": {"Bonus de Proficiência": 6,"Pontos de Feitiçaria": 20, "Habilidade": ["Restauração Feiticeira"],"Truques Conhecidos": 6,"Feitiços Conhecidos": 15,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
         },
-        "Guardião": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+        "Ranger": {
+            "1":{"Bonus de Proficiência": 2,"Habilidade": ["Inimigo Favorito", "Explorador Natural", "Explorador Hábil (Opcional)" , "Inimigo Favorito (Opcional)"],"Feitiços Conhecidos": 0, "Magia N1":0, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "2":{"Bonus de Proficiência": 2,"Habilidade": ["Estilo de luta", "lançamento de feitiços", "foco em lançamento de feitiços (opcional)"],"Feitiços Conhecidos": 2, "Magia N1":2, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "3":{"Bonus de Proficiência": 2,"Habilidade": ["Consciência Primitiva", "Conclave de Rangers", "Consciência Primitiva (Opcional)"],"Feitiços Conhecidos": 3, "Magia N1":3, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "4":{"Bonus de Proficiência": 2,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"],"Feitiços Conhecidos": 3, "Magia N1":3, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "5":{"Bonus de Proficiência": 3,"Habilidade": ["Ataque Extra"],"Feitiços Conhecidos": 4, "Magia N1":4, "Magia N2":2, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "6":{"Bonus de Proficiência": 3,"Habilidade": ["Melhoria do Inimigo Favorecido", "Melhoria do Explorador Natural", "Melhoria do Explorador Hábil (Opcional)"],"Feitiços Conhecidos": 4, "Magia N1":4, "Magia N2":2, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "7":{"Bonus de Proficiência": 3,"Habilidade": ["Recurso Conclave de Rangers"],"Feitiços Conhecidos": 5, "Magia N1":4, "Magia N2":3, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "8":{"Bonus de Proficiência": 3,"Habilidade": ["Melhoria no valor de habilidade", "Land's Stride", "Martial Versatility (opcional)"],"Feitiços Conhecidos": 5, "Magia N1":4, "Magia N2":3, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "9":{"Bonus de Proficiência": 4, "Habilidade": [""],"Feitiços Conhecidos":6, "Magia N1":4, "Magia N2":3, "Magia N3":2, "Magia N4":0, "Magia N5":0
+            },
+            "10":{"Bonus de Proficiência": 4,"Habilidade": ["Melhoria do Explorador Natural", "Ocultar-se à Vista de Todos", "Recurso Explorador Hábil (Opcional)" , "Véu da Natureza (Opcional)"],"Feitiços Conhecidos": 6, "Magia N1":4, "Magia N2":3, "Magia N3":2, "Magia N4":0, "Magia N5":0
+            },
+            
+            "11":{"Bonus de Proficiência": 4,"Habilidade": ["Recurso Conclave de Rangers"],"Feitiços Conhecidos": 7, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":0, "Magia N5":0
+            },
+            "12":{"Bonus de Proficiência": 4,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"],"Feitiços Conhecidos": 7, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":0, "Magia N5":0
+            },
+            "13":{"Bonus de Proficiência": 5, "Habilidade": [""],"Feitiços Conhecidos":8, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":1, "Magia N5":0
+            },
+            "14":{"Bonus de Proficiência": 5,"Habilidade": ["Melhoria do Inimigo Favorecido", "Desaparecer"],"Feitiços Conhecidos": 8, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":1, "Magia N5":0
+            },
+            "15":{"Bonus de Proficiência": 5,"Habilidade": ["Recurso Conclave de Rangers"],"Feitiços Conhecidos": 9, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":2, "Magia N5":0
+            },
+            "16":{"Bonus de Proficiência": 5,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"],"Feitiços Conhecidos": 9, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":2, "Magia N5":0
+            },
+            "17":{"Bonus de Proficiência": 6, "Habilidade": [""],"Feitiços Conhecidos":10, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":1
+            },
+            "18":{"Bonus de Proficiência": 6,"Habilidade": ["Sentidos Ferais"],"Feitiços Conhecidos": 10, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":1
+            },
+            "19":{"Bonus de Proficiência": 6,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"],"Feitiços Conhecidos": 11, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":2
+            },
+            "20":{"Bonus de Proficiência": 6,"Habilidade": ["Matador de Inimigos"],"Feitiços Conhecidos": 11, "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":2
+            }
         },
         "Guerreiro": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+            "1":{"Bonus de Proficiência": 2, "Habilidade": ["Estilo de luta", "segundo fôlego"]},
+            "2":{"Bonus de Proficiência": 2, "Habilidade": ["Surto de Ação (x1)"]},
+            "3":{"Bonus de Proficiência": 2, "Habilidade": ["Arquétipo Marcial"]},
+            "4":{"Bonus de Proficiência": 2, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "5":{"Bonus de Proficiência": 3, "Habilidade": ["Ataque Extra (x1)"]},
+            "6":{"Bonus de Proficiência": 3, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "7":{"Bonus de Proficiência": 3, "Habilidade": ["Recurso de arquétipo marcial"]},
+            "8":{"Bonus de Proficiência": 3, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "9":{"Bonus de Proficiência": 4, "Habilidade": ["Indomável (x1)"]},
+            "10":{"Bonus de Proficiência": 4, "Habilidade": ["Recurso de arquétipo marcial"]},
+            "11":{"Bonus de Proficiência": 4, "Habilidade": ["Ataque Extra (x2)"]},
+            "12":{"Bonus de Proficiência": 4, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "13":{"Bonus de Proficiência": 5, "Habilidade": ["Indomável (x2)"]},
+            "14":{"Bonus de Proficiência": 5, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "15":{"Bonus de Proficiência": 5, "Habilidade": ["Recurso de arquétipo marcial"]},
+            "16":{"Bonus de Proficiência": 5, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "17":{"Bonus de Proficiência": 6, "Habilidade": ["Surto de Ação (x2)", "Indomável (x3)"]},
+            "18":{"Bonus de Proficiência": 6, "Habilidade": ["Recurso de arquétipo marcial"]},
+            "19":{"Bonus de Proficiência": 6, "Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"]},
+            "20":{"Bonus de Proficiência": 6, "Habilidade": ["Ataque Extra (x3)"]}
         },
         "Ladino": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+            "1": {"Bonus de Proficiência": 2,"Ataque surpresa": "1d6","Habilidade": ["Perícia", "ataque furtivo", "hipocrisia de ladrões"]},
+            "2": {"Bonus de Proficiência": 2,"Ataque surpresa": "1d6","Habilidade": ["Ação astuta"]},
+            "3": {"Bonus de Proficiência": 2,"Ataque surpresa": "2d6","Habilidade": ["Arquétipo Ladino", "Mira Firme (Opcional)"]},
+            "4": {"Bonus de Proficiência": 2,"Ataque surpresa": "2d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "5": {"Bonus de Proficiência": 3,"Ataque surpresa": "3d6","Habilidade": ["Esquiva Sobrenatural"]},
+            "6": {"Bonus de Proficiência": 3,"Ataque surpresa": "3d6","Habilidade": ["Perícia"]},
+            "7": {"Bonus de Proficiência": 3,"Ataque surpresa": "4d6","Habilidade": ["Evasão"]},
+            "8": {"Bonus de Proficiência": 3,"Ataque surpresa": "4d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "9": {"Bonus de Proficiência": 4,"Ataque surpresa": "5d6","Habilidade": ["Recurso Arquétipo Roguish"]},
+            "10": {"Bonus de Proficiência": 4,"Ataque surpresa": "5d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "11": {"Bonus de Proficiência": 4,"Ataque surpresa": "6d6","Habilidade": ["Talento confiável"]},
+            "12": {"Bonus de Proficiência": 4,"Ataque surpresa": "6d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "13": {"Bonus de Proficiência": 5,"Ataque surpresa": "7d6","Habilidade": ["Recurso Arquétipo Roguish"]},
+            "14": {"Bonus de Proficiência": 5,"Ataque surpresa": "7d6","Habilidade": ["Sentido cego"]},
+            "15": {"Bonus de Proficiência": 5,"Ataque surpresa": "8d6","Habilidade": ["Mente escorregadia"]},
+            "16": {"Bonus de Proficiência": 5,"Ataque surpresa": "8d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "17": {"Bonus de Proficiência": 6,"Ataque surpresa": "9d6","Habilidade": ["Recurso Arquétipo Roguish"]},
+            "18": {"Bonus de Proficiência": 6,"Ataque surpresa": "9d6","Habilidade": ["Enganoso"]},
+            "19": {"Bonus de Proficiência": 6,"Ataque surpresa": "10d6","Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "20": {"Bonus de Proficiência": 6,"Ataque surpresa": "10d6","Habilidade": ["Golpe de sorte"]}
         },
         "Mago": {
             "1":{"Bonus de Proficiência": 2,"Habilidade":["Conjuração", "Recuperação Arcana"],"Truques Conhecidos": 3,"Magia N1": 2,"Magia N2": 0,"Magia N3": 0,"Magia N4": 0,"Magia N5": 0,"Magia N6": 0,"Magia N7": 0,"Magia N8": 0,"Magia N9": 0},
@@ -244,26 +265,68 @@
             "20":{"Bonus de Proficiência": 6,"Habilidade":["Feitiços de Assinatura"],"Truques Conhecidos": 5,"Magia N1": 4,"Magia N2": 3,"Magia N3": 3,"Magia N4": 3,"Magia N5": 3,"Magia N6": 2,"Magia N7": 2,"Magia N8": 1,"Magia N9": 1}
         },
         "Monge": {
-            "1":{},
-            "2":{},
-            "3":{},
-            "4":{},
-            "5":{},
-            "6":{},
-            "7":{},
-            "8":{},
-            "9":{},
-            "10":{},
-            "11":{},
-            "12":{},
-            "13":{},
-            "14":{},
-            "15":{},
-            "16":{},
-            "17":{},
-            "18":{},
-            "19":{},
-            "20":{}
+            "1":{"Bonus de Proficiência": 2,"Artes marciais":	"1d4","Pontos de Ki": 0, "Movimento sem armadura": [0, "Sem movimento"],"Habilidade": ["Defesa Não Blindada", "Artes Marciais"]},
+            "2":{"Bonus de Proficiência": 2,"Artes marciais":	"1d4","Pontos de Ki": 2 ,"Movimento sem armadura": [10,"10 pés."],"Habilidade": ["Ki", "Movimento Sem Armadura", "Arma Dedicada (Opcional)"]},
+            "3":{"Bonus de Proficiência": 2,"Artes marciais":	"1d4","Pontos de Ki": 3 ,"Movimento sem armadura": [10,"10 pés."],"Habilidade": ["Tradição Monástica", "Desviar Mísseis", "Ataque Ki-Fueled (Opcional)"]},
+            "4":{"Bonus de Proficiência": 2,"Artes marciais":	"1d4","Pontos de Ki": 4 ,"Movimento sem armadura": [10,"10 pés."],"Habilidade": ["Melhoria na Pontuação de Habilidade", "Queda Lenta", "Cura Acelerada (Opcional)"]},
+            "5":{"Bonus de Proficiência": 3,"Artes marciais":	"1d6","Pontos de Ki": 5 ,"Movimento sem armadura": [10,"10 pés."],"Habilidade": ["Ataque Extra", "Golpe Atordoante", "Mira Focada (Opcional)"]},
+            "6":{"Bonus de Proficiência": 3,"Artes marciais":	"1d6","Pontos de Ki": 6 ,"Movimento sem armadura": [15,"15 pés."],"Habilidade": ["Ataques com poder de Ki", "recurso Tradição Monástica"]},
+            "7":{"Bonus de Proficiência": 3,"Artes marciais":	"1d6","Pontos de Ki": 7 ,"Movimento sem armadura": [15,"15 pés."],"Habilidade": ["Evasão", "quietude da mente"]},
+            "8":{"Bonus de Proficiência": 3,"Artes marciais":	"1d6","Pontos de Ki": 8 ,"Movimento sem armadura": [15,"15 pés."],"Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "9":{"Bonus de Proficiência": 4,"Artes marciais":	"1d6","Pontos de Ki": 9 ,"Movimento sem armadura": [15,"15 pés."],"Habilidade": ["Melhoria de movimento sem armadura"]},
+            "10":{"Bonus de Proficiência": 4,"Artes marciais":	"1d6","Pontos de Ki": 10 ,"Movimento sem armadura": [20,"20 pés."],"Habilidade": ["Pureza do Corpo"]},
+            "11":{"Bonus de Proficiência": 4,"Artes marciais":	"1d8","Pontos de Ki": 11 ,"Movimento sem armadura": [20,"20 pés."],"Habilidade": ["Recurso de tradição monástica"]},
+            "12":{"Bonus de Proficiência": 4,"Artes marciais":	"1d8","Pontos de Ki": 12 ,"Movimento sem armadura": [20,"20 pés."],"Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "13":{"Bonus de Proficiência": 5,"Artes marciais":	"1d8","Pontos de Ki": 13 ,"Movimento sem armadura": [20,"20 pés."],"Habilidade": ["Língua do Sol e da Lua"]},
+            "14":{"Bonus de Proficiência": 5,"Artes marciais":	"1d8","Pontos de Ki": 14 ,"Movimento sem armadura": [25,"25 pés."],"Habilidade": ["Alma Diamante"]},
+            "15":{"Bonus de Proficiência": 5,"Artes marciais":	"1d8","Pontos de Ki": 15 ,"Movimento sem armadura": [25,"25 pés."],"Habilidade": ["Corpo Atemporal"]},
+            "16":{"Bonus de Proficiência": 5,"Artes marciais":	"1d8","Pontos de Ki": 16 ,"Movimento sem armadura": [25,"25 pés."],"Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "17":{"Bonus de Proficiência": 6,"Artes marciais":	"1d10","Pontos de Ki": 17 ,"Movimento sem armadura": [25,"25 pés."],"Habilidade": ["Recurso de tradição monástica"]},
+            "18":{"Bonus de Proficiência": 6,"Artes marciais":	"1d10","Pontos de Ki": 18 ,"Movimento sem armadura": [30,"30 pés."],"Habilidade": ["Corpo Vazio"]},
+            "19":{"Bonus de Proficiência": 6,"Artes marciais":	"1d10","Pontos de Ki": 19 ,"Movimento sem armadura": [30,"30 pés."],"Habilidade": ["Melhoria na pontuação de habilidade"]},
+            "20":{"Bonus de Proficiência": 6,"Artes marciais":	"1d10","Pontos de Ki": 20 ,"Movimento sem armadura": [30,"30 pés."],"Habilidade": ["Eu Perfeito"]}
+        },
+        "Paladino":{
+            "1":{"Bonus de Proficiência": 2,"Habilidade": ["Sentido Divino", "Imponha as Mãos"], "Magia N1":0, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "2":{"Bonus de Proficiência": 2,"Habilidade": ["Estilo de Luta", "Conjuração de Feitiços", "Golpe Divino"], "Magia N1":2, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "3":{"Bonus de Proficiência": 2,"Habilidade": ["Saúde Divina", "Juramento Sagrado", "Aproveite o Poder Divino (Opcional)"], "Magia N1":3, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "4":{"Bonus de Proficiência": 2,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"], "Magia N1":3, "Magia N2":0, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "5":{"Bonus de Proficiência": 3,"Habilidade": ["Ataque Extra"], "Magia N1":4, "Magia N2":2, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "6":{"Bonus de Proficiência": 3,"Habilidade": ["Aura de Proteção"], "Magia N1":4, "Magia N2":2, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "7":{"Bonus de Proficiência": 3,"Habilidade": ["Recurso Juramento Sagrado"], "Magia N1":4, "Magia N2":3, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "8":{"Bonus de Proficiência": 3,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"], "Magia N1":4, "Magia N2":3, "Magia N3":0, "Magia N4":0, "Magia N5":0
+            },
+            "9":{"Bonus de Proficiência": 4, "Habilidade": [""],"Magia N1":4, "Magia N2":3, "Magia N3":2, "Magia N4":0, "Magia N5":0
+            },
+            "10":{"Bonus de Proficiência": 4,"Habilidade": ["Aura de Coragem"], "Magia N1":4, "Magia N2":3, "Magia N3":2, "Magia N4":0, "Magia N5":0
+            },
+            "11":{"Bonus de Proficiência": 4,"Habilidade": ["Golpe Divino Aprimorado"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":0, "Magia N5":0
+            },
+            "12":{"Bonus de Proficiência": 4,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":0, "Magia N5":0
+            },
+            "13":{"Bonus de Proficiência": 5, "Habilidade": [""],"Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":1, "Magia N5":0
+            },
+            "14":{"Bonus de Proficiência": 5,"Habilidade": ["Toque de limpeza"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":1, "Magia N5":0
+            },
+            "15":{"Bonus de Proficiência": 5,"Habilidade": ["Recurso Juramento Sagrado"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":2, "Magia N5":0
+            },
+            "16":{"Bonus de Proficiência": 5,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":2, "Magia N5":0
+            },
+            "17":{"Bonus de Proficiência": 6, "Habilidade": [""],"Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":1
+            },
+            "18":{"Bonus de Proficiência": 6,"Habilidade": ["Melhorias de aura"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":1
+            },
+            "19":{"Bonus de Proficiência": 6,"Habilidade": ["Melhoria na Pontuação de Habilidade", "Versatilidade Marcial (Opcional)"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":2
+            },
+            "20":{"Bonus de Proficiência": 6,"Habilidade": ["Recurso Juramento Sagrado"], "Magia N1":4, "Magia N2":3, "Magia N3":3, "Magia N4":3, "Magia N5":2
+            }
         }
     },
     "Raças":{
