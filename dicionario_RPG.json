@@ -331,7 +331,7 @@
     },
     "Raças":{
         "Anão": {
-            "aumento do escore de habilidade": {"Constituição": 2},
+            "Aumento da pontuação de habilidade": {"Constituição": 2},
             "Idade": "Os anões amadurecem na mesma proporção que os humanos, mas são considerados jovens até os 50 anos. Em média, vivem cerca de 350 anos.",
             "Alinhamento": "A maioria dos anões é legal, acreditando firmemente nos benefícios de uma sociedade bem ordenada. Eles tendem para o bem também, com um forte senso de jogo limpo e uma crença de que todos merecem compartilhar os benefícios de uma ordem justa.",
             "Tamanho": "Anões ficam entre 1,0 e 1,50  metros de altura e em média cerca de 150 quilos. Seu tamanho é Médio.",
@@ -344,7 +344,7 @@
             "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Dwarvish. O anões é cheio de consoantes duras e sons guturais, e essas características transbordam para qualquer outra língua que um anão possa falar.", "Idiomas":["Comum","Dwarvish"]}
         },
         "Dragonborn": {
-            "Aumento do escore de habilidade": {"Forca": 2, "Carisma": 1},
+            "Aumento da pontuação de habilidade": {"Forca": 2, "Carisma": 1},
             "Idade": "Os jovens nascidos do dragão crescem rapidamente. Eles caminham horas após a eclosão, atingem o tamanho e o desenvolvimento de uma criança humana de 10 anos aos 3 anos de idade e atingem a idade adulta aos 15. Eles vivem por volta dos 80 anos.",
             "Alinhamento": "Dragonborn tendem para extremos, fazendo uma escolha consciente para um lado ou outro entre o Bem e o Mal (representados por Bahamut e Tiamat, respectivamente). Mais lado com Bahamut do que Tiamat (cujos seguidores não-dragão são principalmente kobolds), mas vilão dragonborn pode ser bastante terrível de fato. Alguns raros poucos escolhem se dedicar a divindades dragões menores, como Chronepsis (Neutro), e menos ainda escolhem adorar Io, o Dragão Nove, que é tudo alinhado ao mesmo tempo.",
             "Tamanho": "Os dragonborn são mais altos e pesados que os humanos, com mais de 6 metros de altura e uma média de quase 250 quilos. Seu tamanho é Médio.",
@@ -367,7 +367,7 @@
             }
         },
         "Elfo": {
-            "aumento do escore de habilidade": {"Destreza": 2},
+            "Aumento da pontuação de habilidade": {"Destreza": 2},
             "Idade": "Embora os elfos atinjam a maturidade física mais ou menos na mesma idade que os humanos, a compreensão élfica da idade adulta vai além do crescimento físico para abranger a experiência mundana. Um elfo normalmente reivindica a idade adulta e um nome adulto por volta dos 100 anos de idade e pode viver até os 750 anos de idade.",
             "Alinhamento": "Os elfos amam a liberdade, a variedade e a auto-expressão, por isso inclinam-se fortemente para os aspectos mais suaves do caos. Eles valorizam e protegem a liberdade dos outros, bem como a sua própria, e são bons na maioria das vezes. Drow são uma exceção; seu exílio no Underdark os tornou viciosos e perigosos. Drow são mais frequentemente maus do que não.",
             "Tamanho": "Os elfos variam de menos de 1,70 a mais de 2,30 metros de altura e têm construções esbeltas. Seu tamanho é Médio.",
@@ -379,18 +379,18 @@
             "Idiomas":{"Descricao":"Você pode falar, ler e escrever Comum e Élfico.","Idiomas":["Comum","Élfico"]},
             "Sub_Raca": {
                 "Elfo Negro": {
-                    "aumento do escore de habilidade": {"Carisma": 1},
+                    "Aumento da pontuação de habilidade": {"Carisma": 1},
                     "Darkvision superior": "Sua visão escura tem um alcance de 120 pés, em vez de 60.",
                     "Sensibilidade à luz solar": "Você tem desvantagem em rolos de ataque e verificações de Sabedoria (Percepção) que dependem da visão quando você, o alvo do ataque, ou o que quer que você esteja tentando perceber está sob luz solar direta.",
                     "Drow Magia": {"Descrição":"Você conhece a cantrip Dancing Lights. Quando você chegar ao 3º nível, você pode lançar o feitiço Faerie Fire uma vez com essa característica e recuperar a capacidade de fazê-lo quando terminar um longo descanso. Quando você atingir o 5º nível, você pode lançar o feitiço Trevas uma vez e recuperar a capacidade de fazê-lo quando terminar um descanso longo. Carisma é a sua habilidade de feitiços para esses feitiços.","Magias":{"Truque": "Dancing Lights", "Nivel3":"Faerie Fire", "Nivel5":"Trevas"}},
                     "Treinamento de Armas Drow": {"Descricao":"Você tem proficiência com rapieiras, espadas curtas e bestas de mão.","Treinamento":["Rapieiras","Espada Curta","Bestas de Mão"]}
                 }, "Alto Elfo":{
-                    "aumento do escore de habilidade": {"Inteligência": 1},
+                    "Aumento da pontuação de habilidade": {"Inteligência": 1},
                     "Cantrip": {"Descricao":"Você conhece um cantrip de sua escolha da lista de feitiços de Mago. A inteligência é a sua capacidade de feitiço.", "Escolha_Um_Truque":["Mago",1]},
                     "Treinamento de Armas de Elfos": {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
                     "Linguagem extra": {"Descricao":"Você pode ler, falar e escrever um idioma adicional de sua escolha.","Escolha_uma_Linguagem":1}
                 }, "Elfo da Floresta":{
-                    "aumento do escore de habilidade": "Sabedoria",
+                    "Aumento da pontuação de habilidade": "Sabedoria",
                     "Treinamento de Armas de Elfos": {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
                     "Frota de Pedestres": {"Descricao":"Sua velocidade de caminhada base aumenta para 35 pés.","Modifica_Deslocamento":35},
                     "Máscara do Selvagem": "Você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por folhagens, chuva forte, neve caindo, névoa e outros fenômenos naturais."
@@ -398,7 +398,7 @@
             }
         },
         "Gnome": {
-            "aumento do escore de habilidade": {"inteligência": 2},
+            "Aumento da pontuação de habilidade": {"inteligência": 2},
             "Idade": "Os gnomos amadurecem na mesma taxa que os humanos, e espera-se que a maioria se estabeleça na vida adulta por volta dos 40 anos. Eles podem viver até 350 anos em média, mas não é muito incomum que cheguem aos 500 anos de idade.",
             "Alinhamento": "Os gnomos são geralmente bons. Aqueles que tendem para o Direito são sábios, engenheiros, pesquisadores, estudiosos, investigadores ou inventores. Aqueles que tendem para o Caos são muitas vezes menestréis, malandros, andarilhos ou joalheiros fantasiosos. Os gnomos são levianos, e até mesmo os malandros entre eles favorecem brincadeiras inofensivas em vez de esquemas viciosos.",
             "Tamanho": "Os gnomos têm entre 3 e 4 metros de altura e pesam cerca de 40 quilos. Seu tamanho é pequeno.",
@@ -408,12 +408,12 @@
             "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum e Gnomish.", "Idiomas":["Comum", "Gnomish"]},
             "Sub_Raca":{
                 "Gnomo da Floresta":{
-                    "aumento do escore de habilidade": {"Destreza": 1},
+                    "Aumento da pontuação de habilidade": {"Destreza": 1},
                     "Ilusionista Natural": {"Descricao":"Você conhece a Ilusão Menor. A inteligência é o seu modificador ortográfico para isso.","Magia":["Ilusão Menor"]},
                     "Fale com Pequenas Feras": "Através de sons e gestos, você pode comunicar ideias simples com animais pequenos ou menores."
                 },
                 "Gnomo da Rocha": {
-                    "aumento do escore de habilidade": {"Constituição":1},
+                    "Aumento da pontuação de habilidade": {"Constituição":1},
                     "Lore do Artífice": "Sempre que você fizer uma verificação de Inteligência (Histórico) relacionada a itens mágicos, alquímicos ou tecnológicos, você pode adicionar o dobro do seu bônus de proficiência em vez de qualquer outro bônus de proficiência que possa ser aplicado.",
                     "Tinker": "Você tem proficiência com ferramentas artesanais (ferramentas de funileiro). Usando essas ferramentas, você pode gastar 1 hora e 10 gp de materiais para construir um dispositivo de relógio minúsculo (AC 5, 1 hp). O dispositivo deixa de funcionar após 24 horas (a menos que você gaste 1 hora reparando-o para manter o dispositivo funcionando), ou quando você usa sua ação para desmontá-lo; Nesse momento, você pode recuperar os materiais usados para criá-lo. Você pode ter até três desses dispositivos ativos ao mesmo tempo. Ao criar um dispositivo. A critério da sua DM, você pode fazer outros objetos com efeitos semelhantes em poder a estes. A prestidigitação pode ser uma boa linha de base para tais efeitos.",
                     "Ferrmentas":{
@@ -424,7 +424,7 @@
             }
         },
         "Meio-Elf": {
-            "aumento do escore de habilidade": {
+            "Aumento da pontuação de habilidade": {
                 "Carisma": 2, "Escolha_Habilidades":{"Quantidade":2,"Valor":1}
             },
             "Idade": "Os meio-elfos envelhecem na mesma proporção que os humanos, atingindo a idade adulta aos 20 anos. Eles vivem muito mais do que os seres humanos, no entanto, muitas vezes excedendo 180 anos.",

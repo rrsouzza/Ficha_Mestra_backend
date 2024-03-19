@@ -56,8 +56,33 @@
           <input type="number" name="" id="" onchange="validandoNivel(this.value)" min="1" max="20">
           <div>
             <label for="">Força: </label>
-            <input type="number" id="atributoForca" name="" value="XX" readonly>
+            <input type="number" id="atributoForca" name="" value="0" readonly>
             <input type="number" name="" onchange="Inceriratributoforca(this.value)" min="-8" max="30">
+          </div>
+          <div>
+            <label for="">Aglidade: </label>
+            <input type="number" id="atributoDestreza" name="" value="0" readonly>
+            <input type="number" name="" onchange="InceriratributoDestreza(this.value)" min="-8" max="30">
+          </div>
+          <div>
+            <label for="">Constituição: </label>
+            <input type="number" id="atributoConstituicao" name="" value="0" readonly>
+            <input type="number" name="" onchange="InceriratributoConstituicao(this.value)" min="-8" max="30">
+          </div>
+          <div>
+            <label for="">Intelegência: </label>
+            <input type="number" id="atributoInteligencia" name="" value="0" readonly>
+            <input type="number" name="" onchange="InceriratributoInteligencia(this.value)" min="-8" max="30">
+          </div>
+          <div>
+            <label for="">Sabedoria: </label>
+            <input type="number" id="atributoSabedoria" name="" value="0" readonly>
+            <input type="number" name="" onchange="InceriratributoSabedoria(this.value)" min="-8" max="30">
+          </div>
+          <div>
+            <label for="">Carisma: </label>
+            <input type="number" id="atributoCarisma" name="" value="0" readonly>
+            <input type="number" name="" onchange="InceriratributoCarisma(this.value)" min="-8" max="30">
           </div>
         </div>
         <div class="modal-footer">
@@ -98,10 +123,10 @@
 
   var lista = ""
   var Raca_Escolhida = ""
-  var At_forca = 0
-  var At_Agilidade = 0
+  var At_Forca = 0
+  var At_Destreza = 0
   var At_Constituicao = 0
-  var At_Intelecto = 0
+  var At_Inteligencia = 0
   var At_Sabedoria = 0
   var At_Carisma = 0
 
@@ -126,23 +151,86 @@
   function Inceriratributoforca(valor){
     var res
     res = (valor-10)/2
-    if (res>0){
-      res = Math.floor(res)
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
     }else{
-      res = Math.ceil(res)
+      res = Math.floor(res)
     }
-    document.getElementById("atributoForca").value = res + At_forca // Continuar a validar as entradas de dados
+    document.getElementById("atributoForca").value = res + At_Forca // Continuar a validar as entradas de dados
   }
+  function InceriratributoCarisma(valor){
+    var res
+    res = (valor-10)/2
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
+    }else{
+      res = Math.floor(res)
+    }
+    document.getElementById("atributoCarisma").value = res + At_Carisma // Continuar a validar as entradas de dados
+  }
+  function InceriratributoSabedoria(valor){
+    var res
+    res = (valor-10)/2
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
+    }else{
+      res = Math.floor(res)
+    }
+    document.getElementById("atributoSabedoria").value = res + At_Sabedoria // Continuar a validar as entradas de dados
+  }
+  function InceriratributoInteligencia(valor){
+    var res
+    res = (valor-10)/2
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
+    }else{
+      res = Math.floor(res)
+    }
+    document.getElementById("atributoInteligencia").value = res + At_Inteligencia // Continuar a validar as entradas de dados
+  }
+  function InceriratributoConstituicao(valor){
+    var res
+    res = (valor-10)/2
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
+    }else{
+      res = Math.floor(res)
+    }
+    document.getElementById("atributoConstituicao").value = res + At_Constituicao // Continuar a validar as entradas de dados
+  }
+  function InceriratributoDestreza(valor){
+    var res
+    res = (valor-10)/2
+    if(valor == [1,3,5,9]){
+      res = Math.ceil(res-1)
+    }else{
+      res = Math.floor(res)
+    }
+    document.getElementById("atributoDestreza").value = res + At_Destreza // Continuar a validar as entradas de dados
+  }
+  
   function validarRaca(Raca){
     for(var i in lista["Raças"][Raca]){
-      if (i == "Aumento do escore de habilidade"){
+      if (i == "Aumento da pontuação de habilidade"){
         for (var atributo in lista["Raças"][Raca][i]){
           if (atributo == "Constituição"){
             At_Constituicao = Number(lista["Raças"][Raca][i][atributo])
+          }if (atributo == "Forca"){
+            At_Forca = Number(lista["Raças"][Raca][i][atributo])
+            document.getElementById("atributoForca").value = At_Forca
+          }if (atributo == "Carisma"){
+            At_Carisma = Number(lista["Raças"][Raca][i][atributo])
+          }if (atributo == "Destreza"){
+            At_Destreza = Number(lista["Raças"][Raca][i][atributo])
+          }if (atributo == "Intelegência"){
+            At_Inteligencia = Number(lista["Raças"][Raca][i][atributo])
+          }if (atributo == "Sabedoria"){
+            At_Sabedoria = Number(lista["Raças"][Raca][i][atributo])
           }
         }
+      }if(""){
+
       }
-      console.log( i + "-->" + lista["Raças"][Raca][i])
     }
 
   }
@@ -158,7 +246,82 @@
           for(var aux = 1; aux < (nivels+1); aux++){
             teste.push(lista["Classes"][i][aux])
           }
-          console.log(teste)
+          for (var i in teste){
+            for (var elem in teste[i]){
+              if(elem == "Bonus de Proficiência"){
+                ""
+              }
+              if("Habilidades"){
+                ""
+              }
+              if("Infusões conhecidas"){
+                ""
+              }
+              if("Itens Infundidos"){
+                ""
+              }
+              if("Truques Conhecidos"){
+                ""
+              }
+              if("Magia N1"){
+                ""
+              }
+              if("Magia N2"){
+                ""
+              }
+              if("Magia N3"){
+                ""
+              }
+              if("Magia N4"){
+                ""
+              }
+              if("Magia N5"){
+                ""
+              }
+              if("Magia N6"){
+                ""
+              }
+              if("Magia N7"){
+                ""
+              }
+              if("Magia N8"){
+                ""
+              }
+              if("Magia N9"){
+                ""
+              }
+              if("Fúria"){
+                ""
+              }
+              if("Dano de Fúria"){
+                ""
+              }
+              if("Feitiços Conhecidos"){
+                ""
+              }
+              if("Slots de feitiço"){
+                ""
+              }
+              if("Nível do slot"){
+                ""
+              }
+              if("Invocações conhecidas"){
+                ""
+              }
+              if("Ataque surpresa"){
+                ""
+              }
+              if("Artes marciais"){
+                ""
+              }
+              if("Pontos de Ki"){
+                ""
+              }
+              if("Movimento sem armadura"){
+                ""
+              }
+            }
+          }
         }
       }
       alert(document.getElementById("classe").value)
