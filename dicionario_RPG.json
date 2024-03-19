@@ -336,10 +336,10 @@
             "Alinhamento": "A maioria dos anões é legal, acreditando firmemente nos benefícios de uma sociedade bem ordenada. Eles tendem para o bem também, com um forte senso de jogo limpo e uma crença de que todos merecem compartilhar os benefícios de uma ordem justa.",
             "Tamanho": "Anões ficam entre 1,0 e 1,50  metros de altura e em média cerca de 150 quilos. Seu tamanho é Médio.",
             "Velocidade": {"Descricao":"Sua velocidade de caminhada base é de 25 pés. Sua velocidade não é reduzida usando armaduras pesadas.","Modifica_Deslocamento":25},
-            "Visão escura": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Visão no escuro": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
             "Resiliência dos Anões": "Você tem vantagem em salvar lances contra veneno, e você tem resistência contra danos de veneno.",
             "Treinamento de Combate de Anões": {"Descricao":"Você tem proficiência com o machado de batalha, machado de mão, martelo leve e martelo de guerra.","Treinamento":["machado de batalha", "machado de mão", "martelo leve", "martelo de guerra"]},
-            "Proficiência em ferramentas": "Você ganha proficiência com as ferramentas do artesão de sua escolha: ferramentas de ferreiro, suprimentos de cervejaria ou ferramentas de pedreiro.",
+            "Proficiência em ferramentas": {"Descricao":"Você ganha proficiência com as ferramentas do artesão de sua escolha: ferramentas de ferreiro, suprimentos de cervejaria ou ferramentas de pedreiro.", "Ferramentas":["ferramentas de ferreiro", "suprimentos de cervejaria", "ferramentas de pedreiro"]},
             "Esperteza": {"Descricao":"Sempre que você faz uma verificação de Inteligência (Histórico) relacionada à origem da pedraria, você é considerado proficiente na habilidade de História e adiciona o dobro do seu bônus de proficiência ao cheque, em vez do seu bônus de proficiência normal.","Perícias":["História"]},
             "Idiomas": {"Descricao":"Você pode falar, ler e escrever Comum e Dwarvish. O anões é cheio de consoantes duras e sons guturais, e essas características transbordam para qualquer outra língua que um anão possa falar.", "Idiomas":["Comum","Dwarvish"]}
         },
@@ -372,7 +372,7 @@
             "Alinhamento": "Os elfos amam a liberdade, a variedade e a auto-expressão, por isso inclinam-se fortemente para os aspectos mais suaves do caos. Eles valorizam e protegem a liberdade dos outros, bem como a sua própria, e são bons na maioria das vezes. Drow são uma exceção; seu exílio no Underdark os tornou viciosos e perigosos. Drow são mais frequentemente maus do que não.",
             "Tamanho": "Os elfos variam de menos de 1,70 a mais de 2,30 metros de altura e têm construções esbeltas. Seu tamanho é Médio.",
             "Velocidade": "Sua velocidade de caminhada base é de 30 pés.",
-            "Visão escura": "Acostumado com florestas de twilit e o céu noturno, você tem visão superior em condições escuras e escuras. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Visão no escuro": "Acostumado com florestas de twilit e o céu noturno, você tem visão superior em condições escuras e escuras. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
             "Ancestralidade Fey": "Você tem vantagem em salvar guarda contra ser encantado, e a magia não pode colocá-lo para dormir.",
             "Transe": "Os elfos não dormem. Em vez disso, meditam profundamente, permanecendo semiconscientes, por 4 horas por dia. A palavra comum para esta meditação é 'transe'. Enquanto medita, você sonha depois de uma moda; Tais sonhos são, na verdade, exercícios mentais que se tornaram reflexivos após anos de prática. Depois de descansar dessa forma, você ganha o mesmo benefício que um ser humano ganharia a partir de 8 horas de sono.",
             "Sentidos aguçados": {"Descricao":"Você tem proficiência na habilidade Percepção.","Perícias":["Percepção"]},
@@ -380,13 +380,13 @@
             "Sub_Raca": {
                 "Elfo Negro": {
                     "Aumento da pontuação de habilidade": {"Carisma": 1},
-                    "Darkvision superior": "Sua visão escura tem um alcance de 120 pés, em vez de 60.",
+                    "Darkvision superior": "Sua visão no escuro tem um alcance de 120 pés, em vez de 60.",
                     "Sensibilidade à luz solar": "Você tem desvantagem em rolos de ataque e verificações de Sabedoria (Percepção) que dependem da visão quando você, o alvo do ataque, ou o que quer que você esteja tentando perceber está sob luz solar direta.",
                     "Drow Magia": {"Descrição":"Você conhece a cantrip Dancing Lights. Quando você chegar ao 3º nível, você pode lançar o feitiço Faerie Fire uma vez com essa característica e recuperar a capacidade de fazê-lo quando terminar um longo descanso. Quando você atingir o 5º nível, você pode lançar o feitiço Trevas uma vez e recuperar a capacidade de fazê-lo quando terminar um descanso longo. Carisma é a sua habilidade de feitiços para esses feitiços.","Magias":{"Truque": "Dancing Lights", "Nivel3":"Faerie Fire", "Nivel5":"Trevas"}},
                     "Treinamento de Armas Drow": {"Descricao":"Você tem proficiência com rapieiras, espadas curtas e bestas de mão.","Treinamento":["Rapieiras","Espada Curta","Bestas de Mão"]}
                 }, "Alto Elfo":{
                     "Aumento da pontuação de habilidade": {"Inteligência": 1},
-                    "Cantrip": {"Descricao":"Você conhece um cantrip de sua escolha da lista de feitiços de Mago. A inteligência é a sua capacidade de feitiço.", "Escolha_Um_Truque":["Mago",1]},
+                    "Cantrip": {"Descricao":"Você conhece um cantrip de sua escolha da lista de feitiços de Mago. A Inteligência é a sua capacidade de feitiço.", "Escolha_Um_Truque":["Mago",1]},
                     "Treinamento de Armas de Elfos": {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
                     "Linguagem extra": {"Descricao":"Você pode ler, falar e escrever um idioma adicional de sua escolha.","Escolha_uma_Linguagem":1}
                 }, "Elfo da Floresta":{
@@ -398,18 +398,18 @@
             }
         },
         "Gnome": {
-            "Aumento da pontuação de habilidade": {"inteligência": 2},
+            "Aumento da pontuação de habilidade": {"Inteligência": 2},
             "Idade": "Os gnomos amadurecem na mesma taxa que os humanos, e espera-se que a maioria se estabeleça na vida adulta por volta dos 40 anos. Eles podem viver até 350 anos em média, mas não é muito incomum que cheguem aos 500 anos de idade.",
             "Alinhamento": "Os gnomos são geralmente bons. Aqueles que tendem para o Direito são sábios, engenheiros, pesquisadores, estudiosos, investigadores ou inventores. Aqueles que tendem para o Caos são muitas vezes menestréis, malandros, andarilhos ou joalheiros fantasiosos. Os gnomos são levianos, e até mesmo os malandros entre eles favorecem brincadeiras inofensivas em vez de esquemas viciosos.",
             "Tamanho": "Os gnomos têm entre 3 e 4 metros de altura e pesam cerca de 40 quilos. Seu tamanho é pequeno.",
             "Velocidade": {"Descricao":"Sua velocidade de caminhada base é de 25 pés.","Modifica_Deslocamento":25},
-            "Visão escura": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Visão no escuro": "Acostumado com a vida subterrânea, você tem visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
             "Gnome Astúcia": "Você tem vantagem em todas as salvas de Inteligência, Sabedoria e Carisma contra a magia.",
             "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum e Gnomish.", "Idiomas":["Comum", "Gnomish"]},
             "Sub_Raca":{
                 "Gnomo da Floresta":{
                     "Aumento da pontuação de habilidade": {"Destreza": 1},
-                    "Ilusionista Natural": {"Descricao":"Você conhece a Ilusão Menor. A inteligência é o seu modificador ortográfico para isso.","Magia":["Ilusão Menor"]},
+                    "Ilusionista Natural": {"Descricao":"Você conhece a Ilusão Menor. A Inteligência é o seu modificador ortográfico para isso.","Magia":["Ilusão Menor"]},
                     "Fale com Pequenas Feras": "Através de sons e gestos, você pode comunicar ideias simples com animais pequenos ou menores."
                 },
                 "Gnomo da Rocha": {
@@ -431,20 +431,21 @@
             "Alinhamento": "Os meio-elfos compartilham a inclinação caótica de sua herança élfica. Ambos valorizam a liberdade pessoal e a expressão criativa, não demonstrando amor aos líderes nem desejo de seguidores. Eles se irritam com as regras, se ressentem das exigências dos outros e, às vezes, se mostram não confiáveis, ou pelo menos imprevisíveis. Eles são bons e maus em igual número, uma característica que compartilham com seus pais humanos.",
             "Tamanho": "Os meio-elfos são mais ou menos do mesmo tamanho que os humanos, variando de 1,20 a 2,0 metros de altura. Seu tamanho é Médio.",
             "Velocidade": "Sua velocidade de caminhada base é de 30 pés.",
-            "Visão escura": "Graças à sua herança élfica, você tem uma visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Visão no escuro": "Graças à sua herança élfica, você tem uma visão superior em condições escuras e sombrias. Você pode ver em luz fraca a 60 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não consegue discernir cores na escuridão, apenas tons de cinza.",
             "Ancestralidade Fey": "Você tem vantagem em salvar arremessos contra ser encantado, e a magia não pode colocá-lo para dormir.",
             "Idiomas": {"Descricao":"Você pode ler, falar e escrever Comum, Élfico e um idioma de sua escolha.", "Idiomas":["Comum","Élfico"], "Escolha_Idioma":1},
             "Versatilidade de meio-Elfo":{
                 "Escolha uma das seguintes características": "Versatilidade de Habilidades (Geral). Você ganha proficiência em duas habilidades de sua escolha.",
                 "Treinamento de Armas de Elfos (High ou Wood Elf Heritage)":  {"Descricao":"Você tem proficiência com a espada longa, espada curta, arco curto e arco longo.", "Treinamento":["Espada Curta", "Espada Longa", "Arco curto", "Arco longo"]},
-                "Cantrip (Herança dos Elfos Altos)": "Você conhece um cantrip de sua escolha da lista de feitiços do assistente. A inteligência é a sua capacidade de feitiço.",
+                "Cantrip (Herança dos Elfos Altos)": "Você conhece um cantrip de sua escolha da lista de feitiços do assistente. A Inteligência é a sua capacidade de feitiço.",
                 "Frota de Pé (Wood Elf Heritage)": {"Descricao":"Sua velocidade de caminhada base aumenta para 35 pés.","Modifica_Deslocamento":35},
                 "Máscara do Selvagem (Wood Elf Heritage)": "Você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por folhagens, chuva forte, neve caindo, névoa e outros fenômenos naturais.",
                 "Drow Magic (Herança dos Elfos Negros)": {"Descrição":"Você conhece a cantrip Dancing Lights. Quando você chegar ao 3º nível, você pode lançar o feitiço Faerie Fire uma vez com essa característica e recuperar a capacidade de fazê-lo quando terminar um longo descanso. Quando você atingir o 5º nível, você pode lançar o feitiço Trevas uma vez e recuperar a capacidade de fazê-lo quando terminar um descanso longo. Carisma é a sua habilidade de feitiços para esses feitiços.","Magias":{"Truque": "Dancing Lights", "Nivel3":"Faerie Fire", "Nivel5":"Trevas"}},
                 "Velocidade de Nado (Aquatic Elf Heritage)": "Você tem uma velocidade de natação de 30 pés."
-        }},
+            }
+        },
         "Meio-Orc": {
-            "Aumento da pontuação de habilidade": {"Força": 2,"Constituição": 1},
+            "Aumento da pontuação de habilidade": {"Forca": 2,"Constituição": 1},
             "Idade": "Os meio-orcs amadurecem um pouco mais rápido que os humanos, atingindo a idade adulta por volta dos 14 anos. Eles envelhecem visivelmente mais rápido e raramente vivem mais de 75 anos.",
             "Alinhamento": "Meio-orcs herdam uma tendência ao caos de seus pais orcs e não são fortemente inclinados ao bem. Meio-orcs criados entre orcs e dispostos a viver suas vidas entre eles geralmente são maus.",
             "Tamanho": "Meio-orcs são um pouco maiores e mais corpulentos que os humanos e variam de 1,5 a mais de 1,80 metro de altura. Seu tamanho é Médio.",
@@ -532,7 +533,7 @@
                     "Legado de Cania": {"Descricao":"Você conhece o truque Mão Mágica . Depois de atingir o 3º nível, você pode lançar o feitiço Mãos Ardentes uma vez como um feitiço de 2º nível. Depois de atingir o 5º nível, você também pode lançar o feitiço Lâmina Flamejante uma vez como um feitiço de 3º nível. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Mão Magica","Nivel3":"Mãos Ardentes","Nivel5":"Lâmina Flamejante"}}
                 },
                 "Linhagem de Zariel": {
-                    "Aumento da pontuação de habilidade":{"Força": 1},
+                    "Aumento da pontuação de habilidade":{"Forca": 1},
                     "Legado de Averno": {"Descricao":"Você conhece o truque da Taumaturgia . Depois de atingir o 3º nível, você pode lançar o feitiço Searing Smite uma vez como um feitiço de 2º nível. Depois de atingir o 5º nível, você também pode lançar o feitiço Branding Smite uma vez como um feitiço de 3º nível. Você deve terminar um descanso longo para conjurar essas magias novamente com esta característica. Carisma é sua habilidade de lançar feitiços para esses feitiços.","Magias":{"Truque":"Taumaturgia","Nivel3":"Searing Smite","Nivel5":"Branding Smite"}}
                 }
             }

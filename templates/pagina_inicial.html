@@ -210,67 +210,158 @@
   }
   
   function validarRaca(Raca){
+    At_Forca = 0
+    At_Destreza = 0
+    At_Constituicao = 0
+    At_Inteligencia = 0
+    At_Sabedoria = 0
+    At_Carisma = 0
+    document.getElementById("atributoConstituicao").value = At_Constituicao
+    document.getElementById("atributoForca").value = At_Forca
+    document.getElementById("atributoCarisma").value = At_Carisma
+    document.getElementById("atributoDestreza").value = At_Destreza
+    document.getElementById("atributoInteligencia").value = At_Inteligencia
+    document.getElementById("atributoSabedoria").value = At_Sabedoria
     for(var i in lista["Raças"][Raca]){
       if (i == "Aumento da pontuação de habilidade"){
         for (var atributo in lista["Raças"][Raca][i]){
           if (atributo == "Constituição"){
             At_Constituicao = Number(lista["Raças"][Raca][i][atributo])
+            document.getElementById("atributoConstituicao").value = At_Constituicao
           }if (atributo == "Forca"){
             At_Forca = Number(lista["Raças"][Raca][i][atributo])
             document.getElementById("atributoForca").value = At_Forca
           }if (atributo == "Carisma"){
             At_Carisma = Number(lista["Raças"][Raca][i][atributo])
+            document.getElementById("atributoCarisma").value = At_Carisma
           }if (atributo == "Destreza"){
             At_Destreza = Number(lista["Raças"][Raca][i][atributo])
-          }if (atributo == "Intelegência"){
+            document.getElementById("atributoDestreza").value = At_Destreza
+          }if (atributo == "Inteligência"){
             At_Inteligencia = Number(lista["Raças"][Raca][i][atributo])
+            document.getElementById("atributoInteligencia").value = At_Inteligencia
           }if (atributo == "Sabedoria"){
             At_Sabedoria = Number(lista["Raças"][Raca][i][atributo])
+            document.getElementById("atributoSabedoria").value = At_Sabedoria
           }
         }
       }
-      if(""){
+      if(i == "Idade"){
+        console.log(i +"--> " + lista["Raças"][Raca][i])
+      }
+      if(i == "Alinhamento"){
+        console.log(i +"--> " + lista["Raças"][Raca][i])
+      }
+      if(i == "Tamanho"){
+        console.log(i +"--> " + lista["Raças"][Raca][i])
+      }
+      if(i == "Velocidade"){
+        for (elemem in lista["Raças"][Raca][i]){
+          if (elemem == "Descricao"){
+            console.log(i + "--> " + lista["Raças"][Raca][i][elemem])
+          }else{
+            "" // fazer a velocidade receber o valor adicional
+          }
+        }
+      }
+      if(i == "Visão no escuro"){
+        console.log(i +"--> " + lista["Raças"][Raca][i])
+      }
+      if(i == "Resiliência dos Anões"){
+        console.log(i +"--> " + lista["Raças"][Raca][i])
+      }
+      if(i == "Treinamento de Combate de Anões"){
+        for (elemem in lista["Raças"][Raca][i]){
+          if (elemem == "Descricao"){
+            console.log(i + "--> " + lista["Raças"][Raca][i][elemem])
+          }
+          else{
+            "" // fazer a separação do arquivo de treinamento
+          }
+        }
+      }
+      if(i == "Proficiência em ferramentas"){
+        for (elemem in lista["Raças"][Raca][i]){
+          if (elemem == "Descricao"){
+            console.log(i + "--> " + lista["Raças"][Raca][i][elemem])
+          }else{
+            "" // fazer a separação das Ferramentas
+          }
+        }
+      }
+      if(i == "Esperteza"){
+        for (elemem in lista["Raças"][Raca][i]){
+          if (elemem == "Descricao"){
+            console.log(i + "--> " + lista["Raças"][Raca][i][elemem])
+          }else{
+            "" // Incerir a perícia 
+          }
+        }
+      }
+      if(i == "Idiomas"){
+        for (elemem in lista["Raças"][Raca][i]){
+          if (elemem == "Descricao"){
+            console.log(i + "--> " + lista["Raças"][Raca][i][elemem])
+          }else{
+            "" // fazer a separação dos idiomas
+          }
+        }
+      }
+      if(i == "Andestralidade"){
         ""
       }
-      if(""){
+      if(i == "Arma de Respiração"){
         ""
       }
-      if(""){
+      if(i == "Resistência a danos"){
         ""
       }
-      if(""){
+      if(i == "Cor do Dragão"){
         ""
       }
-      if(""){
+      if(i == "Ancestralidade Fey"){
         ""
       }
-      if(""){
+      if(i == "Transe"){
         ""
       }
-      if(""){
+      if(i == "Sentidos aguçados"){
         ""
       }
-      if(""){
+      if(i == "Sub_Raca"){
         ""
       }
-      if(""){
+      if(i == "Gnome Astúcia"){
         ""
       }
-      if(""){
+      if(i == "Versatilidade de meio-Elfo"){
         ""
       }
-      if(""){
+      if(i == "Ameaçador"){
         ""
       }
-      if(""){
+      if(i == "Resistência implacável"){
         ""
       }
-      if(""){
+      if(i == "Ataques Selvagens"){
+        ""
+      }
+      if(i == "Sortudo"){
+        ""
+      }
+      if(i == "Corajoso"){
+        ""
+      }
+      if(i == "Ágil"){
+        ""
+      }
+      if(i == "Resistência Infernal"){
         ""
       }
     }
 
   }
+
   function validandoNivel(nivel){
     if (nivel > 20 || nivel<1 ){
       alert("Nivel do Jogador incorreto!")
