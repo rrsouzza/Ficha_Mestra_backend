@@ -31,6 +31,8 @@ Id_usuario_Login = [] # Armazena o Id do usuário
 def criar_mesa(): # Criar a função para armazenar as fichas no bando de dados
     return redirect(url_for('pagina_inicial'))
     pass
+
+# Eviando dados do JSON para a tela de criação das fichas
 @app.route('/dados-fichas',methods=["GET"])
 def enviarDados(): # Criar a função para criar as mesas no bando de dados
     arquivo = open("dicionario_RPG.json", "r", encoding='utf-8')
