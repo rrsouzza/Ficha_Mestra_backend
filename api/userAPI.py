@@ -18,11 +18,11 @@ def create():
     print("body: ", body)
 
     user = auth.create_user(
-      display_name = body.name,
-      email = body.email,
-      password = body.password,
+      display_name = body.get('name'),
+      email = body.get('email'),
+      password = body.get('password'),
     )
 
-    return jsonify({ "success": True, "user": user }), 200
+    return jsonify({ "success": True, "user": body }), 200 # Não dá para retorna o user porque não é um JSON por isso reotrnei o body
   except Exception as e:
     return f"An Error Occured: {e}"
