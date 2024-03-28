@@ -132,7 +132,7 @@ def delete_Fichas(id_ficha):
 def delete_mesa(id_mesa):
   try:
     user_Ref_Mesa.document(id_mesa).delete()
-    return jsonify({"success": True, }), 200
+    return jsonify({"success": True}), 200
   except Exception as e:
     return f"An Error Occured: {e}"
 
@@ -144,6 +144,17 @@ def patch_Ficha(id_ficha):
     return jsonify({"success": True}), 200
   except Exception as e:
     return f"An Error Occured: {e}"
+
+@userAPI.route('/modificar-mesa/<id_mesa>', methods=["PATCH"])
+def patch_Mesa(id_mesa):
+  try:
+    ficha_ref = user_Ref_Mesa.document(id_mesa)
+    ficha_ref.update(request.json)
+    return jsonify({"success": True}), 200
+  except Exception as e:
+    return f"An Error Occured: {e}"
+
+
 
 
 
