@@ -11,7 +11,6 @@ user_Ref_Mesa = db.collection('Mesa')
 # Site para pesquisa da criação de usuários https://blog.rocketseat.com.br/desenvolvendo-aplicacoes-web-com-flask/
 # 
 
-
 userAPI = Blueprint('userAPI', __name__)
 
 @userAPI.route('/add', methods=['POST'])
@@ -83,14 +82,18 @@ def pesquis_ficha(id_conta, pesquisa):
     return f"An Error Occured: {e}"
   
 @userAPI.route('/pesquisa-mesas/<id_jogador>/<pesquisa>',methods=['GET'])
-def pesquisa_mesa(id_jogador, pesquisa=""):
+def pesquisa_mesa(id_jogador, pesquisa):
   try:
     filter_1 = FieldFilter("Nome_mesa", "==", pesquisa)
     filter_2 = FieldFilter("Tipo_da_Mesa", "==", pesquisa)
 
-    or_filter = Or([filter_1,filter_2])
+    filter_3 = FieldFilter("Id_Mestre", "==", id_jogador)
+    filter_4 = FieldFilter("Id_Jogadores", "array_contains", id_jogador)
 
-    docs_ref = (db.collection("Mesa").where(filter=FieldFilter("Id_conta", "==", id_jogador)).where(filter= or_filter).stream()) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#compound_and_queries
+    or_filter = Or([filter_1,filter_2])
+    or_filter_validador = Or([filter_3,filter_4])
+
+    docs_ref = (db.collection("Mesa").where(filter=or_filter_validador).where(filter= or_filter).stream()) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#compound_and_queries
     arquivos = {}
     for doc in docs_ref:
       arquivos.update({doc.id : doc.to_dict()})
@@ -98,10 +101,25 @@ def pesquisa_mesa(id_jogador, pesquisa=""):
   except Exception as e:
     return f"An Error Occured: {e}"
 
-@userAPI.route('/pesquisa-fichas/<id_jogador>',methods=['GET'])
+@userAPI.route('/mostra-mesas/<id_jogador>',methods=['GET']) # Mostra todas as Mesas 
 def getmesa(id_jogador):
-  #fazer um or pesquisando se o jogador é o mestre da mesa ou se ele é um jogador
+  try:
+    filter_1 = FieldFilter("Id_Mestre", "==", id_jogador)
+    filter_2 = FieldFilter("Id_Jogadores", "array_contains", id_jogador) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#array_membership
+
+    or_filter = Or([filter_1,filter_2])
+
+    docs_ref = (db.collection("Mesa").where(filter= or_filter).stream()) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#compound_and_queries
+
+    
+    arquivos = {}
+    for doc in docs_ref:
+      arquivos.update({doc.id : doc.to_dict()})
+    return jsonify({"arquivos": arquivos}), 200
+  except Exception as e:
+    return f"An Error Occured: {e}"
   pass
+
 @userAPI.route('/delete-fichas/<id_ficha>', methods=['DELETE'])
 def delete_Fichas(id_ficha):
   try:
