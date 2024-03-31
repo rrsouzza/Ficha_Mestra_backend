@@ -65,7 +65,7 @@ def getficha(id_jogador):
   except Exception as e:
     return f"An Error Occured: {e}"
   
-@userAPI.route('/pesquisa-fichas/<id_jogador>/<pesquisa>',methods=['GET'])
+@userAPI.route('/pesquisa-fichas/<id_conta>/<pesquisa>',methods=['GET'])
 def pesquis_ficha(id_conta, pesquisa):
   try:
     filter_1 = FieldFilter("Nome_jogador", "==", pesquisa)
