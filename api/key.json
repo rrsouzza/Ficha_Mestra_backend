@@ -1,13 +1,10 @@
 {
-  "type": "service_account",
-  "project_id": "fichamestra",
-  "private_key_id": "75d2cc5ffb219f76ba9cc3757eb635d5af902b28",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChhuVzFKhJZrdz\nqCAvuv9yAh7fV4UPFgZYwMMCimX1iXuJ+F1A+U5BuDR5BtTsyifjWominv9qdlUK\n//6hpI5Nd8ovjQdd38ify8PA7XdbBqyE0mwJBHilHDk30qympEHTUuMj0aJKjlCF\nqGz819uAfzbEfXkv2KLFTp3lA5jSzn9TIXz1FiRPri/ZBibuGuYq7VzsGVn1RPS9\nol5qFKUwQh8rz8ntqdmpa0vv9DEiMzZLCibLoFSuLPtHEMB5fzeh1HBIRAGACAyF\nhkUidmdXGFrxKjBjq1LUjFuLRwCttduN599oe91wfxett7AaN3Oe/V9fEh3+yXf5\niyv4umTTAgMBAAECggEAKjKUhMDzyeE0sdlNN0rx6vXU3OH/V9aYJ92L1IEVa9TT\n2lJxAkVfBVo7ExcOzyFs1D9Vz48cCNMLGomQGuhjaKePwWZlc0fAIMbZx/ABi10t\n+rECGkT5w6Cg7g1yn0IwFCYGQthEPpf5P0Gl31QA+wvA4gope69rroIAS9DpvsBb\nNlwrXEnKHmh8Vf0IwY24U5rR1ObplzcahADPqmJjNciD/GaxAtctFaBhLxXOrEGW\ns+y4noKToXycRfD45YS5emCE//ywrHnhHP3uLg1t5I3VeZy38Yw7DAN6pit3aWZK\nl38kRnpQSt/xlwzIqlsuYuap2bIARCadjMPCgu0JyQKBgQDUoK/5BMrupxWBklOH\nAjKFuYW3rV9EjuBdbdWlpPaaYqzmupK7losrPsCKdu3fKWYkbJlX+QVXHri2dtRi\n6s4VzhoTZJwVr1pxoylM3BdSmhD3gNrYcKbWPUwFW+e6BPWUqJg3BqcSKicBohOa\ndsImFbsHO079cL63RXyqd61tfQKBgQDCecDP56n8nLrpHyh35m2TESOe2XzvlVzs\nrGFLMiZB00iq60y8I5dRgWNBl8gqrRAxFPNk3dTtzLISFi3wVnYsxUyIJ2juiLQ4\nWZAiZWN2f1bf/EqYZ7QUKN1m1RKqiw9gEFVMV0QaZmnXtYJyJZsuX8fMVFRvZYXU\nlZgQVYfsjwKBgQDLMWgZW/gmSuvlcBV8bqAjZOChYAArvzIwdrb13giADw5WTDPP\nKpWCVSyg5fh6C9D9u/5qsKHm2IgCbtqWUPdypQwMPlhe7L1M3XSpa6aqHGtcavo4\nXqdBE0Dj2ik/fl/Fmbwk0am1VS0DhYSgVx9AUAH0bjwVPLo04CW7rjTA7QKBgATE\nAwuVO78rABGSZ+V4Shsegmb0IXGlkV9jYgb7taBLUy6NEZZSsPSYXRxQYeFZ2Fm7\nj7NbFEq3h22WCY4oMEEsnJGBlbqysufmmfed0HAo8rIOdq2BbRJJZhONCSYQvlG2\nVMDIKq0S8WkN06KEdWcPhc/mCSOpszvgZpeP4QLVAoGAbjs0U/0FS+VojQZW7NLH\n9rKg14wko85IQEZButDbOud2TPTt/r5a3TcSbDhP8E04KI6q0vwHN9lXQ61LiJsG\ny6Jsj3paA9EJ59VElx+nWV20l7P0mNPxOywMfAF7dZGJODuHbu5Gyzw3Etr4Hoqb\ntvVyHYBZr9HTEPCpsYHSW70=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-8uh0h@fichamestra.iam.gserviceaccount.com",
-  "client_id": "100624936091535469512",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8uh0h%40fichamestra.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "apiKey": "AIzaSyAj1smOAhAxG9CF613tUxaOdXXRI5EKLak",
+  "authDomain": "fichamestra.firebaseapp.com",
+  "databaseURL": "https://fichamestra-default-rtdb.firebaseio.com",
+  "projectId": "fichamestra",
+  "storageBucket": "fichamestra.appspot.com",
+  "messagingSenderId": "45563166619",
+  "appId": "1:45563166619:web:610b117e481779b3cbab3e",
+  "measurementId": "G-JFKG0MTCTN"
 }

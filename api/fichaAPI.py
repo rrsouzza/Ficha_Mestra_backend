@@ -65,3 +65,21 @@ def delete(id_ficha):
     return jsonify({"success": True, }), 200
   except Exception as e:
     return f"An Error Occured: {e}"
+  
+# -------------------- #
+
+# @userAPI.route('/pesquisa-fichas/<id_conta>/<pesquisa>', methods=['GET'])
+# def pesquis_ficha(id_conta, pesquisa):
+#   try:
+#     filter_1 = FieldFilter("Nome_jogador", "==", pesquisa)
+#     filter_2 = FieldFilter("Nome_Personagem", "==", pesquisa)
+
+#     or_filter = Or(filters=[filter_1,filter_2]) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#or_queries
+
+#     docs_ref = (db.collection("Fichas").where(filter=FieldFilter("Id_conta", "==", id_conta)).where(filter=or_filter).stream())
+#     arquivos = {}
+#     for doc in docs_ref:
+#       arquivos.update({doc.id : doc.to_dict()})
+#     return jsonify({"arquivos": arquivos}), 200
+#   except Exception as e:
+#     return f"An Error Occured: {e}"

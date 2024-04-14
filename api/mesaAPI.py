@@ -68,3 +68,25 @@ def delete(id_mesa):
     return jsonify({"success": True}), 200
   except Exception as e:
     return f"An Error Occured: {e}"
+  
+# --------------------- #
+
+# @userAPI.route('/pesquisa-mesas/<id_jogador>/<pesquisa>', methods=['GET'])
+# def pesquisa_mesa(id_jogador, pesquisa):
+#   try:
+#     filter_1 = FieldFilter("Nome_mesa", "==", pesquisa)
+#     filter_2 = FieldFilter("Tipo_da_Mesa", "==", pesquisa)
+
+#     filter_3 = FieldFilter("Id_Mestre", "==", id_jogador)
+#     filter_4 = FieldFilter("Id_Jogadores", "array_contains", id_jogador)
+
+#     or_filter = Or([filter_1,filter_2])
+#     or_filter_validador = Or([filter_3,filter_4])
+
+#     docs_ref = (db.collection("Mesa").where(filter=or_filter_validador).where(filter= or_filter).stream()) #https://firebase.google.com/docs/firestore/query-data/queries?hl=pt-BR#compound_and_queries
+#     arquivos = {}
+#     for doc in docs_ref:
+#       arquivos.update({doc.id : doc.to_dict()})
+#     return jsonify({"arquivos": arquivos}), 200
+#   except Exception as e:
+#     return f"An Error Occured: {e}"
