@@ -16,6 +16,13 @@ def create_app():
 
   app.register_blueprint(fichaAPI, url_prefix='/ficha')
   app.register_blueprint(mesaAPI, url_prefix='/mesa')
+  
+  @app.after_request
+  def after_request(response):
+    header = response.headers
+    header['Access-Control-Allow-Origin'] = '*'
+    header['Access-Control-Allow-Headers'] = 'Content-Type'
+    return response
 
   @app.route('/signup', methods=['POST'])
   def signup():
@@ -47,8 +54,14 @@ def create_app():
 
     try:
       user = pb.auth().sign_in_with_email_and_password(email, password)
+      userInfo = {
+        'id': user.get('localId'),
+        'email': email,
+        'displayName': user.get('displayName'),
+      }
       jwt = user['idToken']
-      return { 'success': True, 'token': jwt }, 200
+
+      return { 'success': True, 'token': jwt, 'user': userInfo }, 200
     except Exception as e:
       print("Exception: ", e, "\n--------------\n")
       return { 'success': False, 'message': 'There was an error logging in', 'exception': e }, 400
