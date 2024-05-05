@@ -4,19 +4,19 @@ from firebase_admin import firestore, db
 from google.cloud.firestore_v1.base_query import FieldFilter
 
 db = firestore.client()
-fichas_Ref = db.collection('fichas')
+characters_Ref = db.collection('characters')
 
-fichaAPI = Blueprint('fichaAPI', __name__)
+charactersAPI = Blueprint('charactersAPI', __name__)
 
 
-@fichaAPI.route('/add', methods=['POST'])
+@charactersAPI.route('/add', methods=['POST'])
 def create():
   try:
     id = uuid.uuid4()
     body = request.json
     new_id = id.hex
     
-    fichas_Ref.document(new_id).set(body)
+    characters_Ref.document(new_id).set(body)
     body.id = new_id
 
     return jsonify({"success": True, "data": body}), 200
@@ -24,19 +24,19 @@ def create():
     return f"An Error Occured: {e}"
 
 
-@fichaAPI.route('/get/<id>', methods=['GET'])
-def get(id_ficha):
+@charactersAPI.route('/get-by-character/<id_character>', methods=['GET'])
+def get(id_character):
   try:
-    doc_ref = db.collection("fichas").where(filter = FieldFilter("id", "==", id_ficha)).stream()
+    doc_ref = characters_Ref.where(filter = FieldFilter("id", "==", id_character)).stream()
     return jsonify({"data": doc_ref}), 200
   except Exception as e:
     return f"An Error Occurred: {e}"
 
 
-@fichaAPI.route('/get/<id_user>', methods=['GET'])
+@charactersAPI.route('/get-by-user/<id_user>', methods=['GET'])
 def get_by_user(id_user):
   try:
-    docs_ref = db.collection("fichas").where(filter = FieldFilter("user", "==", id_user)).stream()
+    docs_ref = characters_Ref.where(filter = FieldFilter("user", "==", id_user)).stream()
     items = {}
     for doc in docs_ref:
       items.update({doc.id : doc.to_dict()})
@@ -45,23 +45,23 @@ def get_by_user(id_user):
     return f"An Error Occured: {e}"
   
 
-@fichaAPI.route('/put/<id_ficha>',methods=['PUT'])
-def put(id_ficha):
+@charactersAPI.route('/put/<id_character>', methods=['PUT'])
+def put(id_character):
   try:
-    ficha = fichas_Ref.document(id_ficha)
+    character = characters_Ref.document(id_character)
     body = request.json
 
-    ficha.update(body)
+    character.update(body)
 
-    return jsonify({"success": True, "data": ficha}), 200
+    return jsonify({"success": True, "data": character}), 200
   except Exception as e:
     return f"An Error Occured: {e}"
 
 
-@fichaAPI.route('/delete/<id_ficha>', methods=['DELETE'])
-def delete(id_ficha):
+@charactersAPI.route('/delete/<id_character>', methods=['DELETE'])
+def delete(id_character):
   try:
-    fichas_Ref.document(id_ficha).delete()
+    characters_Ref.document(id_character).delete()
     return jsonify({"success": True, }), 200
   except Exception as e:
     return f"An Error Occured: {e}"
