@@ -2,7 +2,7 @@ import firebase_admin
 import pyrebase
 import json
 from firebase_admin import credentials, auth
-from flask import Flask, request
+from flask import Flask, request, jsonify
 
 cred = credentials.Certificate("api/admin_sdk.json")
 default_app = firebase_admin.initialize_app(cred)
@@ -54,6 +54,18 @@ def create_app():
 
     try:
       user = pb.auth().sign_in_with_email_and_password(email, password)
+    except Exception as e:
+      error = e.__str__()
+      if error.__contains__('\"code\": 400,'):
+        if error.__contains__('\"message\": \"INVALID_LOGIN_CREDENTIALS'):
+          # return { 'success': False, 'message': 'Invalid login credentials', 'exception': e }, 401
+          return jsonify(success = False, message = 'Invalid login credentials', exception = e ), 401
+        if error.__contains__('\"message\": \"TOO_MANY_ATTEMPTS_TRY_LATER'):
+          # return { 'success': False, 'message': 'Too many attempts. Account was temporarily disabled', 'exception': e }, 403
+          return jsonify(success = False, message = 'Too many attempts. Account was temporarily disabled', exception = e), 403
+      # return { 'success': False, 'message': 'There was an error logging in', 'exception': e }, 400
+      return jsonify(success = False, message = 'There was an error logging in', exception = e), 400
+    else:
       userInfo = {
         'id': user.get('localId'),
         'email': email,
@@ -62,9 +74,6 @@ def create_app():
       jwt = user['idToken']
 
       return { 'success': True, 'token': jwt, 'user': userInfo }, 200
-    except Exception as e:
-      print("Exception: ", e, "\n--------------\n")
-      return { 'success': False, 'message': 'There was an error logging in', 'exception': e }, 400
     
   @app.route('/api/validate-token/<token>', methods=['GET'])
   def validate_token(token):
