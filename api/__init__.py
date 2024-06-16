@@ -2,7 +2,8 @@ import firebase_admin
 import pyrebase
 import json
 from firebase_admin import credentials, auth
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
+from flask_cors import CORS
 
 cred = credentials.Certificate("api/admin_sdk.json")
 default_app = firebase_admin.initialize_app(cred)
@@ -10,19 +11,13 @@ pb = pyrebase.initialize_app(json.load(open("api/key.json")))
 
 def create_app():
   app = Flask(__name__)
+  CORS(app)
 
   from .characterAPI import charactersAPI
   from .mesaAPI import mesaAPI
 
   app.register_blueprint(charactersAPI, url_prefix='/api/character')
   app.register_blueprint(mesaAPI, url_prefix='/api/mesa')
-  
-  @app.after_request
-  def after_request(response):
-    header = response.headers
-    header['Access-Control-Allow-Origin'] = '*'
-    header['Access-Control-Allow-Headers'] = 'Content-Type'
-    return response
 
   @app.route('/api/signup', methods=['POST'])
   def signup():

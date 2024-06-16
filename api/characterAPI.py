@@ -1,6 +1,6 @@
 import uuid
 from flask import Blueprint, request, jsonify
-from firebase_admin import firestore, db
+from firebase_admin import firestore, db, auth
 from google.cloud.firestore_v1.base_query import FieldFilter
 
 db = firestore.client()
@@ -8,18 +8,24 @@ characters_Ref = db.collection('characters')
 
 charactersAPI = Blueprint('charactersAPI', __name__)
 
-
-@charactersAPI.route('/add', methods=['POST'])
-def create():
+@charactersAPI.route('/add/<id_user>', methods=['POST', 'OPTIONS'])
+def create(id_user):
+  try:
+    user = auth.get_user(id_user)
+    print('user: ', user)
+  except Exception as e:
+    return jsonify({ "success": False, "message": "Usuário inexistente" }), 401
+  
   try:
     id = uuid.uuid4()
     body = request.json
     new_id = id.hex
-    
-    characters_Ref.document(new_id).set(body)
-    body.id = new_id
 
-    return jsonify({"success": True, "data": body}), 200
+    body["user"] = id_user
+    body["id"] = new_id
+    characters_Ref.document(new_id).set(body)
+
+    return jsonify({ "success": True, "data": body }), 200
   except Exception as e:
     return f"An Error Occured: {e}"
 
