@@ -19,6 +19,13 @@ def create_app():
   app.register_blueprint(charactersAPI, url_prefix='/api/character')
   app.register_blueprint(mesaAPI, url_prefix='/api/mesa')
 
+  @app.after_request
+  def after_request(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = '*'
+    response.headers['Access-Control-Allow-Headers'] = '*'
+    return response
+
   @app.route('/api/signup', methods=['POST'])
   def signup():
     body = request.json

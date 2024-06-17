@@ -8,6 +8,13 @@ characters_Ref = db.collection('characters')
 
 charactersAPI = Blueprint('charactersAPI', __name__)
 
+@charactersAPI.after_request
+def after_request(response):
+  response.headers['Access-Control-Allow-Origin'] = '*'
+  response.headers['Access-Control-Allow-Methods'] = '*'
+  response.headers['Access-Control-Allow-Headers'] = '*'
+  return response
+
 @charactersAPI.route('/add/<id_user>', methods=['POST', 'OPTIONS'])
 def create(id_user):
   try:
