@@ -34,7 +34,7 @@ def create(id_user):
 def get(id_character):
   try:
     doc_ref = characters_Ref.where(filter = FieldFilter("id", "==", id_character)).stream()
-    return jsonify({"data": doc_ref}), 200
+    return jsonify({ "data": doc_ref }), 200
   except Exception as e:
     return f"An Error Occurred: {e}"
 
@@ -43,10 +43,10 @@ def get(id_character):
 def get_by_user(id_user):
   try:
     docs_ref = characters_Ref.where(filter = FieldFilter("user", "==", id_user)).stream()
-    items = {}
+    items = []
     for doc in docs_ref:
-      items.update({doc.id : doc.to_dict()})
-    return jsonify({"data": items}), 200
+      items.append(doc.to_dict())
+    return jsonify({ "data": items }), 200
   except Exception as e:
     return f"An Error Occured: {e}"
   
@@ -54,13 +54,14 @@ def get_by_user(id_user):
 @charactersAPI.route('/put/<id_character>', methods=['PUT'])
 def put(id_character):
   try:
-    character = characters_Ref.document(id_character)
+    # character = characters_Ref.where(filter = FieldFilter("id", "==", id_character)).stream()
     body = request.json
 
-    character.update(body)
+    characters_Ref.document(id_character).set(body, merge = True)
 
-    return jsonify({"success": True, "data": character}), 200
+    return jsonify({ "success": True, "data": body }), 200
   except Exception as e:
+    print("e: ------- 1\n", e)
     return f"An Error Occured: {e}"
 
 
