@@ -2,7 +2,8 @@ import firebase_admin
 import pyrebase
 import json
 from firebase_admin import credentials, auth
-from flask import Flask, request
+from flask import Flask, request, jsonify, make_response
+from flask_cors import CORS
 
 cred = credentials.Certificate("api/admin_sdk.json")
 default_app = firebase_admin.initialize_app(cred)
@@ -10,21 +11,15 @@ pb = pyrebase.initialize_app(json.load(open("api/key.json")))
 
 def create_app():
   app = Flask(__name__)
+  CORS(app)
 
-  from .fichaAPI import fichaAPI
+  from .characterAPI import charactersAPI
   from .mesaAPI import mesaAPI
 
-  app.register_blueprint(fichaAPI, url_prefix='/ficha')
-  app.register_blueprint(mesaAPI, url_prefix='/mesa')
-  
-  @app.after_request
-  def after_request(response):
-    header = response.headers
-    header['Access-Control-Allow-Origin'] = '*'
-    header['Access-Control-Allow-Headers'] = 'Content-Type'
-    return response
+  app.register_blueprint(charactersAPI, url_prefix='/api/character')
+  app.register_blueprint(mesaAPI, url_prefix='/api/mesa')
 
-  @app.route('/signup', methods=['POST'])
+  @app.route('/api/signup', methods=['POST'])
   def signup():
     body = request.json
     email = body.get("email")
@@ -46,7 +41,7 @@ def create_app():
       print("Exception: ", e, "\n--------------\n")
       return { 'success': False, 'message': 'Error creating user', 'exception': e }, 400
       
-  @app.route('/login', methods=['POST'])
+  @app.route('/api/login', methods=['POST'])
   def login():
     body = request.json
     email = body.get('email')
@@ -54,6 +49,18 @@ def create_app():
 
     try:
       user = pb.auth().sign_in_with_email_and_password(email, password)
+    except Exception as e:
+      error = e.__str__()
+      if error.__contains__('\"code\": 400,'):
+        if error.__contains__('\"message\": \"INVALID_LOGIN_CREDENTIALS'):
+          # return { 'success': False, 'message': 'Invalid login credentials', 'exception': e }, 401
+          return jsonify(success = False, message = 'Invalid login credentials', exception = e ), 401
+        if error.__contains__('\"message\": \"TOO_MANY_ATTEMPTS_TRY_LATER'):
+          # return { 'success': False, 'message': 'Too many attempts. Account was temporarily disabled', 'exception': e }, 403
+          return jsonify(success = False, message = 'Too many attempts. Account was temporarily disabled', exception = e), 403
+      # return { 'success': False, 'message': 'There was an error logging in', 'exception': e }, 400
+      return jsonify(success = False, message = 'There was an error logging in', exception = e), 400
+    else:
       userInfo = {
         'id': user.get('localId'),
         'email': email,
@@ -62,8 +69,15 @@ def create_app():
       jwt = user['idToken']
 
       return { 'success': True, 'token': jwt, 'user': userInfo }, 200
+    
+  @app.route('/api/validate-token/<token>', methods=['GET'])
+  def validate_token(token):
+    try:
+      decoded_token = auth.verify_id_token(token)
+      uid = decoded_token['uid']
+      return { 'success': True, 'token': token, 'message': 'Token is valid' }, 200
     except Exception as e:
       print("Exception: ", e, "\n--------------\n")
-      return { 'success': False, 'message': 'There was an error logging in', 'exception': e }, 400
+      return { 'success': False, 'message': 'Token is not valid, or an error occurred' }, 401
 
   return app
